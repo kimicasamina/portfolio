@@ -1,15 +1,180 @@
+:root {
+  --background-color: HSL(0, 0%, 18%);
+  --text-color: HSL(46, 49%, 86%);
+  --accent-1: HSL(238, 39%, 44%);
+  --accent-2: HSL(339, 66%, 58%);
+}
+
 *, *::before, *::after {
   padding: 0;
   margin: 0;
-  border: solid 1px red;
 }
 
-a, a:visited {
+a, a:visited, a:active {
   text-decoration: none;
-  color: red;
+  color: HSL(46, 49%, 86%);
 }
 
 body {
   max-width: 1440px;
   margin-inline: auto;
+  font-family: sans-serif;
+  line-height: 2;
+  background: var(--background-color);
+  color: var(--text-color);
+}
+
+header {
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  float: right;
+}
+nav a {
+  margin-left: 30px;
+}
+nav i {
+  transform: scale(2);
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 700px) {
+  .container {
+    min-height: 80vh;
+    padding: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.about-me {
+  text-align: center;
+}
+@media screen and (min-width: 700px) {
+  .about-me {
+    padding: 100px 50px;
+    text-align: left;
+  }
+}
+.about-me h1 {
+  font-size: clamp(2rem, 5vw + 1rem, 4rem);
+}
+@media screen and (min-width: 700px) {
+  .about-me p {
+    border-left: solid 1px var(--accent-2);
+    padding-left: 10px;
+  }
+}
+
+.project-links {
+  display: none;
+}
+.project-links ul {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.project-links ul a {
+  padding: 10px;
+  color: var(--text-color);
+  border-bottom: solid 1px var(--accent-2);
+}
+.project-links ul a:hover {
+  color: var(--accent-2);
+  transition: 0.2s ease-in-out;
+}
+@media screen and (min-width: 700px) {
+  .project-links {
+    padding: 100px 40px;
+    display: block;
+    width: 35%;
+  }
+}
+
+.projects {
+  text-align: center;
+}
+@media screen and (min-width: 700px) {
+  .projects {
+    padding: 50px;
+  }
+}
+.projects h2 {
+  padding: 40px;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.projects .project {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.projects .project img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+.projects .project h3 {
+  margin-bottom: 10px;
+}
+.projects .project p {
+  margin-bottom: 20px;
+}
+.projects .project a {
+  color: var(--accent-2);
+}
+.projects .project a:hover {
+  transition: 0.2s ease-in-out;
+}
+.projects .project .project-body {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 700px) {
+  .projects .project .project-body {
+    padding: 40px;
+    width: 45%;
+  }
+}
+.projects .project .links {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+@media screen and (min-width: 700px) {
+  .projects .project .links {
+    width: 40%;
+  }
+}
+.projects .project .links a {
+  border: solid 1px var(--accent-2);
+  border-radius: 5px;
+  padding: 7px;
+  margin-bottom: 10px;
+}
+.projects .project .links a:hover {
+  color: var(--text-color);
+}
+.projects .project .tech {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+}
+@media screen and (min-width: 700px) {
+  .projects .project {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -4,36 +4,125 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Kimi Casamina</title>
     <link rel="stylesheet" href="./dist/styles.css" />
   </head>
   <body>
     <header>
       <nav>
-        <a href="">Gmail</a>
-        <a href="">Github</a>
+        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> </a>
+        <a href=""><i class="fa fa-github" aria-hidden="true"></i> </a>
       </nav>
     </header>
-    <section class="aboout-me">
-      <h1>Hi, there!</h1>
-      <p>
-        My name is Kimberly Casamina, Lorem ipsum dolor sit, amet consectetur
-        adipisicing elit. Nihil odio ad sint eveniet deserunt iure et?
-      </p>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil odio ad
-        sint eveniet deserunt iure et?
-      </p>
-    </section>
-    <section class="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <img src="" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
+    <div class="container">
+      <main class="about-me">
+        <h1>Hi, there!</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, illum
-          sit?
+          My name is Kimberly Casamina, Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Nihil odio ad sint eveniet deserunt iure et?
         </p>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil odio
+          ad sint eveniet deserunt iure et? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Dignissimos, deserunt.
+        </p>
+      </main>
+      <!-- <aside class="project-links">
+        <ul>
+          <a href="">CSS Background Generator</a>
+          <a href="">Pomodoro Timer</a>
+          <a href="">Bookmark Landing Page</a>
+          <a href="">Rock, Paper, Scissors</a>
+        </ul>
+      </aside> -->
+    </div>
+
+    <section class="projects">
+      <h2>PROJECTS</h2>
+      <div class="projects-container">
+        <div class="project">
+          <img src="./assets/css-background-generator.png" alt="" />
+          <div class="project-body">
+            <h3>CSS BACKGROUND GENERATOR</h3>
+            <p>
+              A simple application that lets users generate background color.
+              The user can randomize colors and choose between linear and radial
+              gradient.
+            </p>
+            <div class="links">
+              <a href="https://github.com/kimicasamina/css-background-generator"
+                >Source Code</a
+              >
+              <a href="https://kimicasamina.github.io/css-background-generator/"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="./assets/pomodoro-timer.png" alt="" />
+          <div class="project-body">
+            <h3>POMODORO TIMER</h3>
+            <p>
+              A simple pomodoro timer that has a 25 minutes interval. For every
+              pomodoro you finished, you'll gain a tomato. The user can pause
+              and reset the timer.
+            </p>
+            <div class="links">
+              <a href="https://github.com/kimicasamina/pomodoro-timer"
+                >Source Code</a
+              >
+              <a href="https://kimicasamina.github.io/pomodoro-timer/"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="./assets/bookmark.png" alt="" />
+          <div class="project-body">
+            <h3>BOOKMARK LANDING PAGE</h3>
+            <p>
+              A responsive landing page based on a provided mockup from the
+              frontend mentor challenge. I used JavaScript to create a
+              responsive mobile navigation, accordion and tab.
+            </p>
+            <div class="links">
+              <a href="https://kimicasamina.github.io/bookmark-landing-page/"
+                >Source Code</a
+              >
+              <a href="https://kimicasamina.github.io/bookmark-landing-page/"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="./assets/rock-paper-scissors.png" alt="" />
+          <div class="project-body">
+            <h3>ROCK, PAPER, SCISSORS</h3>
+            <p>
+              A simple application that lets users generate background color.
+              The user can randomize colors and choose between linear and radial
+              gradient.
+            </p>
+            <div class="links">
+              <a href="https://github.com/kimicasamina/rock-paper-scissors"
+                >Source Code</a
+              >
+              <a href="https://kimicasamina.github.io/rock-paper-scissors/"
+                >Live Preview</a
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </body>

@@ -1,0 +1,18 @@
+
+header {
+  padding: 50px;
+}
+
+nav {
+  display: flex;
+  float: right;
+
+  a {
+    margin-left: 30px;
+
+  }
+
+  i {
+    transform: scale(2);
+  }
+}
