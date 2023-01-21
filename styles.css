@@ -160,6 +160,7 @@ main .links a {
 main .links a:hover {
   background-color: var(--mustard);
   color: var(--dark);
+  transition: 0.3 ease-in;
 }
 
 
