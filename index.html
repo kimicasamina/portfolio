@@ -9,121 +9,151 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <title>Kimi Casamina</title>
-    <link rel="stylesheet" href="./dist/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i> </a>
-        <a href=""><i class="fa fa-github" aria-hidden="true"></i> </a>
-      </nav>
-    </header>
     <div class="container">
-      <main class="about-me">
-        <h1>Hi, there!</h1>
-        <p>
-          My name is Kimberly Casamina, Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Nihil odio ad sint eveniet deserunt iure et?
+      <aside>
+        <img src="./assets/kek.jpeg" alt="" class="avatar" />
+        <h1>Welcome!</h1>
+        <p class="about">
+          My name is <span class="name">Kimberly Casamina</span> An aspiring web
+          developer. Passionate about honing my skills in web development
         </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil odio
-          ad sint eveniet deserunt iure et? Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Dignissimos, deserunt.
-        </p>
+        <h2>CONTACTS</h2>
+        <div class="contacts">
+          <li>
+            <span><img src="./assets/github.png" alt="" class="email" /></span
+            ><a class="github" href="https://github.com/kimicasamina"
+              >github.com/kimicasamina</a
+            >
+          </li>
+          <li>
+            <span><img src="./assets/email.png" alt="" class="email" /></span
+            >kimicasamina@gmail.com
+          </li>
+          <li>
+            <span
+              ><img src="./assets/phone-call.png" alt="" class="phone"
+            /></span>
+            091561628579
+          </li>
+        </div>
+        <h2>SKILLS & TOOLBOX</h2>
+        <div class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Sass</li>
+          <li>Bootstrap</li>
+          <li>JavaScript</li>
+          <li>AJAX</li>
+          <li>Git & Github</li>
+          <li>Gulp</li>
+          <li>UNIX</li>
+          <li>Figma</li>
+          <li>Photoshop</li>
+        </div>
+      </aside>
+      <main>
+        <div class="projects">
+          <div class="project">
+            <img src="./assets/pomodoro-timer.png" alt="" />
+            <h2>POMODORO TIMER</h2>
+            <div class="details">
+              <p>
+                Created a pomodoro timer that has a 25 minute interval. For
+                every pomodoro you finished, you'll gain a tomato. The user is
+                allowed to pause and reset the timer.
+              </p>
+              <div class="links">
+                <a href="https://kimicasamina.github.io/pomodoro-timer/"
+                  >LIVE PREVIEW</a
+                >
+                <a href="https://github.com/kimicasamina/pomodoro-timer"
+                  >SOURCE CODE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./assets/css-background-generator.png" alt="" />
+            <h2>CSS BACKGROUND GENERATOR</h2>
+            <div class="details">
+              <p>
+                Created an app that lets user generate random css background
+                color. The user is also allowed to customize the colors and
+                choose between linear and radial gradient.
+              </p>
+              <div class="links">
+                <a
+                  href="https://kimicasamina.github.io/css-background-generator/"
+                  >LIVE PREVIEW</a
+                >
+                <a
+                  href="https://github.com/kimicasamina/css-background-generator"
+                  >SOURCE CODE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./assets/bookmark.png" alt="" />
+            <h2>BOOKMARK LANDING PAGE</h2>
+            <div class="details">
+              <p>
+                Recreated a responsive landing page based on provided mockup
+                from frontend mentor challenge. I used JavaScript to create a
+                responsive mobile menu, accordion and tab.
+              </p>
+              <div class="links">
+                <a href="https://kimicasamina.github.io/bookmark-landing-page/"
+                  >LIVE PREVIEW</a
+                >
+                <a href="https://github.com/kimicasamina/bookmark-landing-page"
+                  >SOURCE CODE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./assets/rock-paper-scissors.png" alt="" />
+            <h2>ROCK, PAPER, SCISSORS</h2>
+            <div class="details">
+              <p>
+                Created a rock, paper, scissors game that let the user compete
+                with the computer.
+              </p>
+              <div class="links">
+                <a href="https://kimicasamina.github.io/rock-paper-scissors/"
+                  >LIVE PREVIEW</a
+                >
+                <a href="https://github.com/kimicasamina/rock-paper-scissors"
+                  >SOURCE CODE</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <img src="./assets/daily-tarot-card.png" alt="" />
+            <h2>DAILY TAROT CARD</h2>
+            <div class="details">
+              <p>
+                Display a random tarot card on the screen when you click the
+                'Get Card' button. I used a tarot card API to pull in random
+                data.
+              </p>
+              <div class="links">
+                <a href="https://kimicasamina.github.io/daily-tarot-card/"
+                  >LIVE PREVIEW</a
+                >
+                <a href="https://github.com/kimicasamina/daily-tarot-card"
+                  >SOURCE CODE</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
-      <!-- <aside class="project-links">
-        <ul>
-          <a href="">CSS Background Generator</a>
-          <a href="">Pomodoro Timer</a>
-          <a href="">Bookmark Landing Page</a>
-          <a href="">Rock, Paper, Scissors</a>
-        </ul>
-      </aside> -->
     </div>
-
-    <section class="projects">
-      <h2>PROJECTS</h2>
-      <div class="projects-container">
-        <div class="project">
-          <img src="./assets/css-background-generator.png" alt="" />
-          <div class="project-body">
-            <h3>CSS BACKGROUND GENERATOR</h3>
-            <p>
-              A simple application that lets users generate background color.
-              The user can randomize colors and choose between linear and radial
-              gradient.
-            </p>
-            <div class="links">
-              <a href="https://github.com/kimicasamina/css-background-generator"
-                >Source Code</a
-              >
-              <a href="https://kimicasamina.github.io/css-background-generator/"
-                >Live Preview</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="./assets/pomodoro-timer.png" alt="" />
-          <div class="project-body">
-            <h3>POMODORO TIMER</h3>
-            <p>
-              A simple pomodoro timer that has a 25 minutes interval. For every
-              pomodoro you finished, you'll gain a tomato. The user can pause
-              and reset the timer.
-            </p>
-            <div class="links">
-              <a href="https://github.com/kimicasamina/pomodoro-timer"
-                >Source Code</a
-              >
-              <a href="https://kimicasamina.github.io/pomodoro-timer/"
-                >Live Preview</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="./assets/bookmark.png" alt="" />
-          <div class="project-body">
-            <h3>BOOKMARK LANDING PAGE</h3>
-            <p>
-              A responsive landing page based on a provided mockup from the
-              frontend mentor challenge. I used JavaScript to create a
-              responsive mobile navigation, accordion and tab.
-            </p>
-            <div class="links">
-              <a href="https://kimicasamina.github.io/bookmark-landing-page/"
-                >Source Code</a
-              >
-              <a href="https://kimicasamina.github.io/bookmark-landing-page/"
-                >Live Preview</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <img src="./assets/rock-paper-scissors.png" alt="" />
-          <div class="project-body">
-            <h3>ROCK, PAPER, SCISSORS</h3>
-            <p>
-              A simple application that lets users generate background color.
-              The user can randomize colors and choose between linear and radial
-              gradient.
-            </p>
-            <div class="links">
-              <a href="https://github.com/kimicasamina/rock-paper-scissors"
-                >Source Code</a
-              >
-              <a href="https://kimicasamina.github.io/rock-paper-scissors/"
-                >Live Preview</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </body>
 </html>

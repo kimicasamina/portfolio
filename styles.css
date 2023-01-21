@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --dark: HSL(300, 4%, 9%);
+  --mustard: HSL(37, 100%, 63%);
+  --pink: HSL(335, 67%, 42%);
+  --blue: HSL(213, 58%, 34%);
+  --light: HSL(46, 49%, 86%);
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  /* border: solid 1px red; */
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  margin-inline: auto;
+  font-family: 'Poppins', sans-serif;
+  color: var(--light);
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: var(--mustard);
+  font-size: 1.5rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--pink);
+}
+
+li {
+  list-style-type: none;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+/* ASIDE  */
+aside {
+  width: 30%;
+  padding: 30px;
+  min-height: 100vh;
+  position: fixed;
+  float: left;
+  top: 0;
+  left: 0;
+  z-index: 3000;
+  color: var(--dark);
+  background: var(--mustard);
+}
+
+aside .avatar {
+  width: 35%;  
+  border-radius: 50px;
+  /* height: 70%; */
+}
+
+aside .about, aside .contacts, aside .skills {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+aside h2 {
+  color: var(--dark);
+  border-bottom: solid 1px var(--dark);
+}
+
+
+aside .contacts li {
+  margin: 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+
+}
+
+aside .email, aside .phone {
+  width: 100%;
+  max-width: 25px;
+  margin-right: 10px;
+}
+
+aside .github {
+  color: var(--pink);
+}
+
+aside .skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside .skills li {
+  padding: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  border: solid 1px var(--dark);
+  justify-content: space-evenly;
+}
+
+/* MAIN  */
+main {
+  float: right;
+  padding: 40px;
+  min-height: 100vh;
+  width: 70%;
+  background-color: var(--dark);
+}
+
+main .project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 60%;
+  margin-inline: auto;
+  margin-bottom: 200px;
+
+
+}
+
+main img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 14px -4px rgba(0,0,0,0.75);
+}
+
+main .links {
+  display: flex;
+  width: 320px;
+  margin-inline: auto;
+  justify-content: space-between;
+}
+
+main .links a {
+  padding: 7px 20px;
+  border-radius: 8px;
+  background: var(--pink);
+  color: var(--dark);
+}
+
+main .links a:hover {
+  background-color: var(--mustard);
+  color: var(--dark);
+}
+
+
+
