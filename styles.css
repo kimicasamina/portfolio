@@ -81,7 +81,6 @@ aside .about, aside .contacts, aside .skills {
 aside h2 {
   color: var(--dark);
   border-bottom: solid 1px var(--dark);
-  margin-bottom: 20px;
 }
 
 
