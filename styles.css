@@ -74,9 +74,6 @@ aside .avatar {
   border-radius: 30%;
 }
 
-/* aside .about {
-  margin: 0;
-} */
 
 aside .about, aside .contacts, aside .skills {
   margin-bottom: 20px;
@@ -179,5 +176,37 @@ main .links a:hover {
   transition: 0.3 ease-in;
 }
 
+.hamburger {
+  width: 40px;
+}
+
+/* MOBILE NAV  */
+/* .hide-for-mobile {
+  display: none;
+} */
+
+.mobile-menu {
+  width: 100vw;
+  background: var(--mustard);
+  display: none;
+}
+
+.close-btn {
+  display: none;
+  width: 30px;
+  margin-bottom: 30px;
+}
 
 
+@media screen and (max-width: 1000px) {
+  .mobile-menu {
+    display: flex;
+  }
+  .aside {
+    display: none;
+  }
+  .main {
+    width: 100vw;
+  }
+  
+}

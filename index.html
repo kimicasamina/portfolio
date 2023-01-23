@@ -8,14 +8,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Kimi Casamina</title>
+    <title>Kimi Casamina Portfolio</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="container">
-      <aside>
+      <div class="mobile-menu">
+        <img src="./assets/menu.png" alt="" class="hamburger" />
+      </div>
+      <aside class="aside">
+        <img src="./assets/close.png" alt="" class="close-btn" />
+
         <img src="./assets/hamster.jpeg" alt="" class="avatar" />
-        <h1>Welcome! 👋</h1>
+        <h1>Welcome!</h1>
         <p class="about">
           My name is <span class="name">Kimberly Casamina</span> An aspiring web
           developer, passionate about games, books, memes, and honing my skills
@@ -27,16 +32,6 @@
             <span><img src="./assets/github.png" alt="" class="email" /></span
             ><a class="github" href="https://github.com/kimicasamina"
               >github.com/kimicasamina</a
-            >
-          </li>
-          <li>
-            <span
-              ><img
-                src="./assets/twitter-icon.png"
-                alt=""
-                class="email" /></span
-            ><a class="github" href="https://twitter.com/kimicasamina"
-              >twitter.com/kimicasamina</a
             >
           </li>
           <li>
@@ -65,7 +60,7 @@
           <li>Photoshop</li>
         </div>
       </aside>
-      <main>
+      <main class="main">
         <div class="projects">
           <div class="project">
             <img src="./assets/pomodoro-timer.png" alt="" />
@@ -166,5 +161,6 @@
         </div>
       </main>
     </div>
+    <script src="./app.js"></script>
   </body>
 </html>
