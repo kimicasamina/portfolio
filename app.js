@@ -10,7 +10,6 @@ function displayAside(){
     aside.style.display = 'flex'
     aside.style.width = '100vw'
     aside.style.minHeight = '100vh'
-    aside.style.float = 'none'
     aside.style.flexDirection = 'column'
     // display close button
     closeBtn.style.display = 'flex'

@@ -176,14 +176,13 @@ main .links a:hover {
   transition: 0.3 ease-in;
 }
 
+main .projects p {
+  margin-bottom: 10px;
+}
+
 .hamburger {
   width: 40px;
 }
-
-/* MOBILE NAV  */
-/* .hide-for-mobile {
-  display: none;
-} */
 
 .mobile-menu {
   width: 100vw;
@@ -207,6 +206,19 @@ main .links a:hover {
   }
   .main {
     width: 100vw;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+ 
+  .aside {
+    display: block;
+    
+    width: 30%;
+  }
+  .main {
+    width: 70%;
   }
   
 }
