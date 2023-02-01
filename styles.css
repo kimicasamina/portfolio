@@ -60,7 +60,7 @@ aside {
   left: 0;
   height: 100vh;
   background-color: var(--mustard);
-  padding: 20px;
+  padding: 30px;
   color: var(--dark);
 }
 
@@ -79,6 +79,7 @@ aside img {
 main {
   background-color: var(--dark);
   text-align: center;
+  padding: 30px;
 }
 
 main img {
