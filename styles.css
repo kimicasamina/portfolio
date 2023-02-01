@@ -49,10 +49,22 @@ body {
   color: var(--light);
 }
 
-/* .container {
+.container {
   display: flex;
   justify-content: space-between;
-} */
+}
+
+aside {
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  background-color: var(--mustard);
+}
+
+main {
+  background-color: var(--dark);
+}
 
 
 
