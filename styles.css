@@ -3,7 +3,7 @@
 :root {
   --dark: HSL(300, 4%, 9%);
   --mustard: HSL(37, 100%, 63%);
-  --pink: HSL(335, 67%, 42%);
+  --pink: hsl(309, 50%, 34%);
   --blue: HSL(213, 58%, 34%);
   --light: HSL(46, 49%, 86%);
 }
@@ -11,39 +11,28 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+
 }
 
 *, *::before, *::after {
-  /* border: solid 1px red; */
+  border: solid 1px red;
   padding: 0;
   margin: 0;
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  line-height: 2;
-  margin-inline: auto;
-  font-family: 'Poppins', sans-serif;
-  color: var(--light);
+h1, h2, p, a{
+  line-height: 1.75;
 }
 
 h1 {
-
-  font-size: 1.3rem;
+  font-size: clamp(1.3rem, 1rem + 10vw, + 2rem);
   letter-spacing: 1px;
 }
 
 h2 {
   color: var(--mustard);
   font-size: 1.3rem;
-}
-
-.name {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--pink);
 }
 
 li {
@@ -54,16 +43,32 @@ a, a:visited, a:active {
   text-decoration: none;
 }
 
+body {
+  margin-inline: auto;
+  font-family: 'Poppins', sans-serif;
+  color: var(--light);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--pink);
+}
+
 /* ASIDE  */
 aside {
-  width: 30%;
+  position: sticky;
   padding: 30px;
+  max-width: 30%;
   min-height: 100vh;
-  position: fixed;
-  float: left;
   top: 0;
   left: 0;
-  z-index: 3000;
+  height: 100vh;
   color: var(--dark);
   background: var(--mustard);
 }
@@ -148,8 +153,8 @@ main .project {
 
 main img {
   width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 8px 14px -4px rgba(0,0,0,0.75);
+  border-radius: 10px; 
+  box-shadow: 0 8px 14px -4px rgba(20, 19, 19, 0.75);
 }
 
 main h2 {
@@ -166,18 +171,20 @@ main .links {
 main .links a {
   padding: 7px 20px;
   border-radius: 8px;
-  background: var(--pink);
-  color: var(--dark);
+  background: var(--dark);
+  color: var(--mustard);
+  border: solid 1px var(--mustard);
 }
 
 main .links a:hover {
   background-color: var(--mustard);
   color: var(--dark);
+  border: solid 1px var(--mustard);
   transition: 0.3 ease-in;
 }
 
 main .projects p {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .hamburger {
@@ -196,8 +203,7 @@ main .projects p {
   margin-bottom: 30px;
 }
 
-
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
   .mobile-menu {
     display: flex;
   }
@@ -221,4 +227,4 @@ main .projects p {
     width: 70%;
   }
   
-}
+} */
