@@ -15,7 +15,7 @@ html {
 }
 
 *, *::before, *::after {
-  border: solid 1px red;
+  /* border: solid 1px red; */
   padding: 0;
   margin: 0;
   box-sizing: inherit;
@@ -25,10 +25,10 @@ h1, h2, p, a{
   line-height: 1.75;
 }
 
-h1 {
+/* h1 {
   font-size: clamp(1.3rem, 1rem + 10vw, + 2rem);
   letter-spacing: 1px;
-}
+} */
 
 h2 {
   color: var(--mustard);
@@ -46,6 +46,7 @@ a, a:visited, a:active {
 body {
   margin-inline: auto;
   font-family: 'Poppins', sans-serif;
+  font-weight: 400;
   color: var(--light);
 }
 
@@ -65,18 +66,20 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  gap: 30px;
+  gap: 40px;
 }
 
 aside .wrapper {
   max-width: 100%;
 }
 
-aside .avatar {
+
+aside .avatar img {
   width: 100px;
   max-width: 100%;
-  border-radius: 20%;
+  border-radius: 50%;
   border: solid 5px var(--dark);
+  
 }
 
 aside img {
@@ -85,19 +88,41 @@ aside img {
 
 aside h2 {
   color: var(--dark);
+  margin-bottom: 10px;
+}
+
+aside .about .name {
+  font-size: clamp(1rem, 1rem + 10vh, 2rem);
+  font-weight: 600;
 }
 
 aside .contacts img {
   display: flex;
   align-items: center;
-
+  margin-right: 10px;
 }
 
 aside .contacts li {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
+aside .contacts li a {
+  color: var(--dark);
+}
+
+aside .skills .skills-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+aside .skills .skills-list li{
+  border: solid 1px var(--dark);
+  padding: 2px 4px;
+  font-weight: 500;
+}
 
 
 main {
