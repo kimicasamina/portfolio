@@ -33,6 +33,7 @@
   *::after {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
   }
 
   body {
@@ -52,12 +53,16 @@
     list-style: none;
   }
 
+  a:active {
+    color: red;
+  }
+
   h1 {
-    @apply text-pretty text-4xl;
+    @apply text-4xl font-semibold;
   }
 
   h2 {
-    @apply text-3xl;
+    @apply text-3xl font-semibold;
   }
 
   h3 {
@@ -67,10 +72,88 @@
   p {
     @apply text-lg text-pretty;
   }
+
+  li {
+    color: red;
+  }
+
+  a.navlink:hover::before {
+    content: "";
+    width: 4px;
+    position: absolute;
+    left: -10px;
+    bottom: 6px;
+    top: 6px;
+    background-color: theme(colors.slate[900]);
+  }
+
+  a.link:hover::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 4px;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    background-color: theme(colors.slate[900]);
+    animation: drawLineToRight 200ms;
+    transition: animation 200ms ease-in-out;
+  }
+
+  a.navlink--active::before {
+    content: "";
+    width: 4px;
+    position: absolute;
+    left: -10px;
+    bottom: 6px;
+    top: 6px;
+    background-color: theme(colors.slate[900]);
+  }
+
+  .title::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    top: 32px;
+    left: 0;
+    right: 0;
+    background-color: theme(colors.slate[900]);
+  }
 }
 
 @layer utilities {
-  /* .sectionWrapper {
-    @apply w-full p-12;
-  } */
+  .sectionWrapper {
+    @apply w-full mb-16 p-4 sm:p-12;
+    animation: poof 1s;
+    transition: animation 1s ease-in-out infinite;
+  }
+}
+
+@keyframes poof {
+  0% {
+    transform: translate(-10px);
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes drawLineToRight {
+  0% {
+    width: 15px;
+  }
+
+  50% {
+    width: 30px;
+  }
+  100% {
+    width: 45px;
+  }
 }

@@ -2,13 +2,15 @@ import React from "react";
 import Hero from "./component/Hero";
 import Nav from "./component/Nav";
 import Portfolio from "./component/Portfolio";
+import Contact from "./component/Contact";
 
 export default function App() {
   return (
-    <div className="w-full min-h-screen flex flex-col relative p-6 sm:p-16">
+    <div className="w-full h-full flex flex-col relative">
       <Nav />
       <Hero />
       <Portfolio />
+      <Contact />
     </div>
   );
 }
