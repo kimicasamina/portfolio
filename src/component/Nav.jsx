@@ -33,12 +33,6 @@ export default function Nav() {
     };
   }, []);
 
-  const activeStyle = {
-    fontWeight: "bold",
-    color: "red",
-    textDecoration: "underline",
-  };
-
   return (
     <nav className="flex sm:flex-col sm:items-end sticky top-12 sm:right-12 self-end gap-y-1 z-10">
       <li className="relative">

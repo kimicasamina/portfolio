@@ -90,7 +90,7 @@
   a.link:hover::before {
     content: "";
     position: absolute;
-    width: 45px;
+    width: 34px;
     height: 4px;
     bottom: -4px;
     left: 0;
@@ -125,35 +125,5 @@
 @layer utilities {
   .sectionWrapper {
     @apply w-full mb-16 p-4 sm:p-12;
-    animation: poof 1s;
-    transition: animation 1s ease-in-out infinite;
-  }
-}
-
-@keyframes poof {
-  0% {
-    transform: translate(-10px);
-    opacity: 0.5;
-  }
-
-  50% {
-    opacity: 0.7;
-  }
-  100% {
-    transform: translate(0);
-    opacity: 1;
-  }
-}
-
-@keyframes drawLineToRight {
-  0% {
-    width: 15px;
-  }
-
-  50% {
-    width: 30px;
-  }
-  100% {
-    width: 45px;
   }
 }

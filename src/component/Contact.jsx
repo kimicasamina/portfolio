@@ -15,7 +15,7 @@ export default function Contact() {
           </label>
           <input
             type="text"
-            className="p-2 border bg-slate-700 outline-slate-200"
+            className="p-2 border bg-slate-700 outline-slate-200 rounded-md"
             placeholder="Enter your name"
           />
         </div>
@@ -25,7 +25,7 @@ export default function Contact() {
           </label>
           <input
             type="text"
-            className="p-2 border bg-slate-700 outline-slate-200"
+            className="p-2 border bg-slate-700 outline-slate-200 rounded-md"
             placeholder="Enter your email address"
           />
         </div>
@@ -35,11 +35,11 @@ export default function Contact() {
           </label>
           <textarea
             name=""
-            className="p-2 border bg-slate-700 h-44 outline-slate-200"
+            className="p-2 border bg-slate-700 h-44 outline-slate-200 rounded-md"
             placeholder="Enter your message"
           ></textarea>
         </div>
-        <button className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-lg w-full mt-2">
+        <button className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2">
           SUBMIT
         </button>
       </form>

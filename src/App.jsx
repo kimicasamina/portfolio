@@ -3,6 +3,7 @@ import Hero from "./component/Hero";
 import Nav from "./component/Nav";
 import Portfolio from "./component/Portfolio";
 import Contact from "./component/Contact";
+import Skills from "./component/Skills";
 
 export default function App() {
   return (
