@@ -1,42 +1,36 @@
-name: CI/CD
+name: Build and Deploy
 
 on:
   push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+    branches: ["main"]
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  build-deploy:
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [18.x]
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-
-      - name: Install dependencies
-        run: npm install
-
+          cache: "npm"
+      - name: Install Packages
+        run: npm ci
       - name: Build
         run: npm run build
-
-      - name: Deploy
-        run: |
-          git config --global user.name "kimicasamina"
-          git config --global user.email "kimi.casamina@gmail.com"
-          git remote set-url origin git@github.com:kimicasamina/portfolio.git
-          npm run deploy
-        env:
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          github_token: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-          repository: ${{ https://github.com/kimicasamina/portfolio }}
+      #- name: Test
+      #  run: npm test
+      - name: Deploy🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: build
