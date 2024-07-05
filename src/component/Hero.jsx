@@ -16,8 +16,8 @@ export default function Hero() {
         <div className="flex flex-col gap-y-2">
           <h1 className="mb-4 font-bold">Kimberly Casamina</h1>
           <p className="max-w-[450px]">
-            illum ea quod aliquid nobis minima magnam, nemo consectetur quisquam
-            odit.
+            {/* illum ea quod aliquid nobis minima magnam, nemo consectetur quisquam
+            odit. */}
           </p>
           <Skills />
         </div>
