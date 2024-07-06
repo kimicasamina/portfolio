@@ -25,6 +25,8 @@ jobs:
           cache: "npm"
       - name: Install Packages
         run: npm ci
+      - name: Install GH Pages
+        run: npm install gh-pages
       - name: Build
         run: npm run build
       #- name: Test
