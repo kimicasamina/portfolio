@@ -25,14 +25,15 @@ jobs:
           cache: "npm"
       - name: Install Packages
         run: npm ci
-      - name: Install GH Pages
-        run: npm install gh-pages
       - name: Build
         run: npm run build
+      - name: Build gh pages
+        run: npm run deploy
       #- name: Test
       #  run: npm test
-      - name: Deploy🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: dist
+          GITHUB_TOKEN: ${{ secrets.SECRET_KEY }}
+          publish_dir: ./build
