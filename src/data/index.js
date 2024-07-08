@@ -1,4 +1,4 @@
-import { dashboard, project, timer, notedashboard, rssreader } from "../asset";
+import { dashboard, project, timer, notedashboard, rss_reader } from "../asset";
 
 export const projects = [
   {
@@ -22,7 +22,7 @@ export const projects = [
     id: 3,
     name: "RSS Reader",
     desc: "A simple RSS reader written in React, Tailwindcss, MongoDB, NodeJs and Express",
-    image: rssreader,
+    image: rss_reader,
     live_url: "https://rssreader-3zjk.onrender.com/",
     github_link: "https://github.com/kimicasamina/rss-reader",
   },

@@ -1,6 +1,6 @@
 import React from "react";
 import { projects } from "../data";
-import { github, githubdark } from "../asset/index";
+import { github, githubdark, rss_reader } from "../asset/index";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
