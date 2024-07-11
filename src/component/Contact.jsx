@@ -89,9 +89,12 @@ export default function Contact() {
           className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2 cursor-pointer"
           disabled={isSubmitting}
         />
-        <div className="w-full rounded-md bg-slate-200 text-slate-900 p-2">
-          {stateMessage && <p>{stateMessage}</p>}
-        </div>
+
+        {stateMessage ? (
+          <p className="w-full rounded-md bg-slate-200 text-slate-900 p-2">
+            {stateMessage}
+          </p>
+        ) : null}
       </form>
     </section>
   );
