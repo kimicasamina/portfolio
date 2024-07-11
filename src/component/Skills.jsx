@@ -1,5 +1,6 @@
 import React from "react";
 import { skills } from "../data";
+import emailjs from "@emailjs/browser";
 
 export default function Skills() {
   return (

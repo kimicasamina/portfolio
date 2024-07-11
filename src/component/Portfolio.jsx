@@ -3,6 +3,7 @@ import { projects } from "../data";
 import { github, githubdark, rss_reader } from "../asset/index";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
 
 export default function Portfolio() {
   return (
