@@ -34,7 +34,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className="flex sm:flex-col sm:items-end sticky top-12 sm:right-12 self-end gap-y-1 z-10">
+    <nav className="flex sm:flex-col sm:items-end sticky top-12 sm:right-12 self-end gap-y-1 z-10 gap-x-4 mr-4 sm:mr-0">
       <li className="relative">
         <a
           className={`navlink text-slate-400 hover:text-slate-200 font-semibold ${
