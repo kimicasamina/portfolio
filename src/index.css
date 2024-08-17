@@ -147,10 +147,33 @@
       transform: translate(-50%, -75%) rotate(360deg);
     }
   }
+
+  .slide {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: 1;
+  }
+
+  .slide.active {
+    z-index: 2;
+  }
+
+  /* .slider-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
 }
 
 @layer utilities {
   .sectionWrapper {
-    @apply w-full mb-16 p-4 sm:p-12;
+    @apply w-full p-4 sm:p-12;
+  }
+
+  .boxShadow {
+    box-shadow: -2px 11px 29px -11px rgba(0, 0, 0, 1);
   }
 }

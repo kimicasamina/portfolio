@@ -32,7 +32,7 @@ export default function Contact() {
     <section
       data-section
       id="contact"
-      className="w-full h-screen sectionWrapper"
+      className="w-full h-screen sectionWrapper flex justify-start items-center"
     >
       <form
         action=""
@@ -55,9 +55,7 @@ export default function Contact() {
           />
         </div>
         <div className="w-full flex flex-col gap-y-2">
-          <label htmlFor="" className="font-semibold">
-            Email
-          </label>
+          <label className="font-semibold">Email</label>
           <input
             className="p-2 border bg-slate-700 outline-slate-200 rounded-md"
             type="email"
@@ -68,9 +66,7 @@ export default function Contact() {
           />
         </div>
         <div className="w-full flex flex-col gap-y-2">
-          <label htmlFor="" className="font-semibold">
-            Message
-          </label>
+          <label className="font-semibold">Message</label>
           <textarea
             className="p-2 border bg-slate-700 h-44 outline-slate-200 rounded-md"
             name="message"

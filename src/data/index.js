@@ -1,4 +1,25 @@
-import { dashboard, project, timer, notedashboard, rss_reader } from "../asset";
+import {
+  dashboard,
+  project,
+  timer,
+  notedashboard,
+  mystackaddnote,
+  rss_reader,
+} from "../asset";
+import {
+  rssSlide1,
+  rssSlide2,
+  rssSlide3,
+  rssSlide4,
+  rssSlide5,
+} from "../asset";
+import {
+  gtwAmbience,
+  gtwDashboard,
+  gtwTimer,
+  gtwProject,
+  gtwLogin,
+} from "../asset";
 
 // icons
 import { SiHtml5 } from "react-icons/si";
@@ -18,13 +39,19 @@ import { SiGraphql } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiJest } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import { SiPhp } from "react-icons/si";
+import { SiPython } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
+
+import { SiMysql } from "react-icons/si";
 
 export const projects = [
   {
     id: 1,
     name: "Get To Work",
-    desc: "A web-based project management tool that tracks progress in a visual and rewarding way.",
-    image: dashboard,
+    desc: "A web-based project management and productivity tool that tracks progress in a visual and rewarding way.",
+    images: [gtwDashboard, gtwProject, gtwTimer, gtwAmbience, gtwLogin],
     live_url: "https://gettowork.onrender.com",
     github_link:
       "https://github.com/kimicasamina/Get-To-Work-Mongodb-Express-React-Nodejs",
@@ -33,7 +60,7 @@ export const projects = [
     id: 2,
     name: "Mystackoverflowhiddenbydefault",
     desc: "A note-taking application with syntax highlighting support.",
-    image: notedashboard,
+    images: [notedashboard, mystackaddnote],
     live_url: "https://mystackoverflowhiddenbydefault.onrender.com/",
     github_link: "https://github.com/kimicasamina/fullstack-mern-note-app",
   },
@@ -41,7 +68,7 @@ export const projects = [
     id: 3,
     name: "RSS Reader",
     desc: "A simple RSS reader written in React, Tailwindcss, MongoDB, NodeJs and Express",
-    image: rss_reader,
+    images: [rssSlide1, rssSlide2, rssSlide3, rssSlide4, rssSlide5],
     live_url: "https://rssreader-3zjk.onrender.com/",
     github_link: "https://github.com/kimicasamina/rss-reader",
   },
@@ -106,15 +133,25 @@ export const skills = [
   {
     id: 11,
     label: "NodeJS",
-    icon: SiHtml5,
+    icon: SiNodedotjs,
   },
   {
     id: 12,
+    label: "NextJS",
+    icon: SiNextdotjs,
+  },
+  {
+    id: 13,
+    label: "MySql",
+    icon: SiMysql,
+  },
+  {
+    id: 14,
     label: "Npm",
     icon: SiNpm,
   },
   {
-    id: 13,
+    id: 15,
     label: "Vite",
     icon: SiVite,
   },

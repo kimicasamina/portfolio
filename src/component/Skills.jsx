@@ -20,11 +20,6 @@ export default function Skills() {
             <p className="text-slate-200 ">{skill.label}</p>
           </li>
         ))}
-        {/* <li className="bg-slate-900 rounded-md flex justify-center items-center px-2 py-2 shadow-lg">
-          <SiHtml5 />
-
-          <p className="">HTML</p>
-        </li> */}
       </div>
     </section>
   );

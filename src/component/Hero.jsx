@@ -18,7 +18,7 @@ export default function Hero() {
             <h1 className="mb-4 font-bold text-5xl text-slate-100 tracking-wide">
               Kimberly Casamina
             </h1>
-            <p className="max-w-[450px] text-xl">
+            <p className="max-w-[450px] text-slate-300 leading-snug text-[16px]">
               Passionate about learning and development with a desire to apply
               skills on a larger development team.
             </p>

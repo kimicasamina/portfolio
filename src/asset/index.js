@@ -3,9 +3,20 @@ import dashboard from "./dashboard.png";
 import project from "./project.png";
 import timer from "./timer.png";
 import rss_reader from "./rss_reader.png";
-import notedashboard from "./notedashboard.png";
+import mystackaddnote from "./mystack/mystackaddnote.png";
+import notedashboard from "./mystack/notedashboard.png";
 import github from "./github.svg";
 import githubdark from "./githubdark.svg";
+import gtwDashboard from "./gtw/gtwDashboard.png";
+import gtwProject from "./gtw/gtwProject.png";
+import gtwTimer from "./gtw/gtwTimer.png";
+import gtwAmbience from "./gtw/gtwAmbience.png";
+import gtwLogin from "./gtw/gtwLogin.png";
+import rssSlide1 from "./rss/rss1.png";
+import rssSlide2 from "./rss/rss2.png";
+import rssSlide3 from "./rss/rss3.png";
+import rssSlide4 from "./rss/rss4.png";
+import rssSlide5 from "./rss/rss5.png";
 
 export {
   ambience,
@@ -13,7 +24,18 @@ export {
   project,
   timer,
   notedashboard,
+  mystackaddnote,
   github,
   rss_reader,
   githubdark,
+  gtwAmbience,
+  gtwProject,
+  gtwDashboard,
+  gtwTimer,
+  gtwLogin,
+  rssSlide1,
+  rssSlide2,
+  rssSlide3,
+  rssSlide4,
+  rssSlide5,
 };

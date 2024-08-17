@@ -25,7 +25,17 @@ export default {
       inter: ["Inter", "sans-serif"],
       reddit: ["Reddit mono", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      // Adding custom utilities for mix-blend-mode
+      mixBlendMode: {
+        multiply: "multiply",
+        screen: "screen",
+        overlay: "overlay",
+        darken: "darken",
+        lighten: "lighten",
+        // Add other blend modes as needed
+      },
+    },
   },
   plugins: [],
 };
