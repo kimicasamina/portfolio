@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-link: https://portfolio-kimberly-casamina.onrender.com/
+link: https://kimberlycasamina.onrender.com/
