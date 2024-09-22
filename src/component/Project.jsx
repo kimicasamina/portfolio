@@ -14,8 +14,13 @@ function Project({ project }) {
 
         <div className="w-full flex flex-col items-center text-center gap-y-6">
           <div className="flex flex-col items-center">
-            <h2 className="text-2xl md:text-4xl mb-4">{project.name}</h2>
-            <p className="max-w-[420px] text-slate-300 leading-snug text-base ">
+            <h2 className="text-2xl md:text-4xl mb-4 text-green-200">
+              {project.name}
+            </h2>
+            <p
+              className="max-w-[70%] leading-snug  text-base font-reddit text-green-200"
+              style={{ textWrap: "pretty" }}
+            >
               {project.desc}
             </p>
           </div>
@@ -25,7 +30,7 @@ function Project({ project }) {
               href={project.github_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-200 font-semibold hover:text-slate-400 text-xl link duration-300 bg-slate-700 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2"
+              className="font-semibold  text-xl link duration-300 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
             >
               <img src={githubdark} alt="" />
               <span>Source Code</span>
@@ -34,7 +39,7 @@ function Project({ project }) {
               href={project.live_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-slate-200 font-semibold hover:text-slate-400 text-xl link duration-300 bg-slate-700 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2"
+              className=" font-semibold  text-xl link duration-300 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -17,6 +17,12 @@ import rssSlide2 from "./rss/rss2.png";
 import rssSlide3 from "./rss/rss3.png";
 import rssSlide4 from "./rss/rss4.png";
 import rssSlide5 from "./rss/rss5.png";
+import day1_1 from "./day1/day1_1.png";
+import day1_2 from "./day1/day1_2.png";
+import day1_3 from "./day1/day1_3.png";
+import day1_4 from "./day1/day1_4.png";
+import day1_5 from "./day1/day1_5.png";
+import day1_6 from "./day1/day1_6.png";
 
 export {
   ambience,
@@ -38,4 +44,10 @@ export {
   rssSlide3,
   rssSlide4,
   rssSlide5,
+  day1_1,
+  day1_2,
+  day1_3,
+  day1_4,
+  day1_5,
+  day1_6,
 };

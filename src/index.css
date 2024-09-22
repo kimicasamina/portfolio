@@ -6,6 +6,9 @@
 /* Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+/* Inconsolata */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,7 +40,8 @@
   }
 
   a:active {
-    color: red;
+    color: theme(colors.green.100);
+    background: theme(colors.green.100);
   }
 
   h1 {
@@ -57,7 +61,7 @@
   }
 
   li {
-    color: red;
+    color: theme(colors.green.100);
   }
 
   a.navlink:hover::before {
@@ -67,7 +71,7 @@
     left: -10px;
     bottom: 6px;
     top: 6px;
-    background-color: theme(colors.slate[900]);
+    background-color: theme(colors.green.100);
   }
 
   a.link:hover::before {
@@ -78,7 +82,7 @@
     bottom: -4px;
     left: 0;
     right: 0;
-    background-color: theme(colors.slate[900]);
+    background-color: theme(colors.green.200);
     animation: drawLineToRight 200ms;
     transition: animation 200ms ease-in-out;
   }
@@ -90,7 +94,13 @@
     left: -10px;
     bottom: 6px;
     top: 6px;
-    background-color: theme(colors.slate[900]);
+    background-color: theme(colors.green.300);
+  }
+
+  a.navlink--active {
+    padding: 0 4px;
+    background-color: theme(colors.green.200);
+    color: theme(colors.green.300);
   }
 
   .title::before {
@@ -166,6 +176,25 @@
     left: 50%;
     transform: translate(-50%, -50%);
   } */
+}
+
+@layer base {
+  body {
+    font-family: "Inconsolata", monospace;
+  }
+  .app {
+    @apply bg-black;
+  }
+  h1 {
+    @apply text-green-100;
+  }
+  h2 {
+    @apply text-green-200;
+  }
+  p {
+    @apply text-green-200;
+    font-family: "Inconsolata", monospace;
+  }
 }
 
 @layer utilities {

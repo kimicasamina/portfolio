@@ -40,9 +40,9 @@ export default function Contact() {
         onSubmit={sendEmail}
         ref={form}
       >
-        <h1 className="mb-4">Contact</h1>
+        <h1 className="mb-4 text-4xl text-green-200">> CONTACT</h1>
         <div className="w-full flex flex-col gap-y-2">
-          <label for="from_name" className="font-semibold">
+          <label for="from_name" className="font-semibold text-green-200">
             Name
           </label>
           <input
@@ -50,14 +50,14 @@ export default function Contact() {
             id="from_name"
             name="from_name"
             placeholder="Enter your name"
-            className="p-2 border bg-slate-700 outline-slate-200 rounded-md"
+            className="p-2 border bg-green-100 outline-green-100 rounded-md"
             required
           />
         </div>
         <div className="w-full flex flex-col gap-y-2">
-          <label className="font-semibold">Email</label>
+          <label className="font-semibold text-green-200">Email</label>
           <input
-            className="p-2 border bg-slate-700 outline-slate-200 rounded-md"
+            className="p-2 border bg-green-100 outline-green-100 rounded-md"
             type="email"
             id="from_email"
             name="from_email"
@@ -66,9 +66,9 @@ export default function Contact() {
           />
         </div>
         <div className="w-full flex flex-col gap-y-2">
-          <label className="font-semibold">Message</label>
+          <label className="font-semibold text-green-200">Message</label>
           <textarea
-            className="p-2 border bg-slate-700 h-44 outline-slate-200 rounded-md"
+            className="p-2 border  h-44 bg-green-100 outline-green-100 rounded-md"
             name="message"
             rows="8"
             cols="30"
@@ -82,7 +82,7 @@ export default function Contact() {
         <input
           type="submit"
           value="Send"
-          className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2 cursor-pointer"
+          className="p-2 border  font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2 cursor-pointer bg-green-100 text-black hover:bg-green-200"
           disabled={isSubmitting}
         />
 

@@ -20,6 +20,7 @@ import {
   gtwProject,
   gtwLogin,
 } from "../asset";
+import { day1_1, day1_2, day1_3, day1_4, day1_5, day1_6 } from "../asset";
 
 // icons
 import { SiHtml5 } from "react-icons/si";
@@ -41,6 +42,7 @@ import { SiJest } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
+import { SiLaravel } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
 
@@ -66,8 +68,16 @@ export const projects = [
   },
   {
     id: 3,
+    name: "day1",
+    desc: "The Habit Tracker application is designed to help users build and maintain positive habits. Users can create, edit, and delete habits, track their progress, and visualize their performance over time. The application offers a user-friendly interface for easy interaction and engagement.",
+    images: [day1_1, day1_2, day1_3, day1_4, day1_5, day1_6],
+    live_url: "https://day1-habit-tracker.onrender.com",
+    github_link: "https://github.com/kimicasamina/day1",
+  },
+  {
+    id: 4,
     name: "RSS Reader",
-    desc: "A simple RSS reader written in React, Tailwindcss, MongoDB, NodeJs and Express",
+    desc: "A Simple RSS Reader is a lightweight, user-friendly application designed to help users stay updated with their favorite news sources, blogs, and websites.",
     images: [rssSlide1, rssSlide2, rssSlide3, rssSlide4, rssSlide5],
     live_url: "https://rssreader-3zjk.onrender.com/",
     github_link: "https://github.com/kimicasamina/rss-reader",
@@ -145,13 +155,24 @@ export const skills = [
     label: "MySql",
     icon: SiMysql,
   },
+
   {
     id: 14,
+    label: "Php",
+    icon: SiPhp,
+  },
+  {
+    id: 15,
+    label: "Laravel",
+    icon: SiLaravel,
+  },
+  {
+    id: 16,
     label: "Npm",
     icon: SiNpm,
   },
   {
-    id: 15,
+    id: 17,
     label: "Vite",
     icon: SiVite,
   },
