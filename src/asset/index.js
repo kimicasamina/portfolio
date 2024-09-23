@@ -23,6 +23,7 @@ import day1_3 from "./day1/day1_3.png";
 import day1_4 from "./day1/day1_4.png";
 import day1_5 from "./day1/day1_5.png";
 import day1_6 from "./day1/day1_6.png";
+import day1_7 from "./day1/day1_7.png";
 
 export {
   ambience,
@@ -50,4 +51,5 @@ export {
   day1_4,
   day1_5,
   day1_6,
+  day1_7,
 };

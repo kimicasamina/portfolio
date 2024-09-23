@@ -19,18 +19,18 @@ export default function Hero() {
           {/* <div className="flex-1 flex flex-col">
           </div> */}
           <h1
-            className="mb-4 font-bold text-xl sm:text-5xl text-yellow tracking-wide flex flex-col sm:absolute top-4 left-0 mt-10"
+            className="mb-4 font-bold text-xl sm:text-5xl text-yellow tracking-wide flex flex-col sm:absolute top-4 left-0 mt-0"
             ref={glitch.ref}
           >
-            <span className="">+-------------------+</span>
-            <span className="">| Kimberly Casamina |</span>
-            <span className="">+-------------------+</span>
+            <span className="sm:text-6xl">+---#%-------*---0--+</span>
+            <span className="sm:text-6xl">| Kimberly Casamina |</span>
+            <span className="sm:text-6xl">+-------$-----------+</span>
           </h1>
           <div className="h-auto flex flex-row gap-x-4 ">
-            <p className="text-green-2 text-sm sm:text-base font-semibold">
+            <p className="text-green-2 text-sm sm:text-base font-semibold text-cyan-400 ">
               kimi@pop-os ~ 💃
             </p>
-            <p className="max-w-[60%] text-green-200 leading-snug  pt-1 text-sm sm:text-base">
+            <p className="max-w-[60%] text-green-200 leading-snug   text-sm sm:text-base">
               I'm a self-taught developer passionate about turning ideas into
               reality through code. My journey into coding began out of
               curiosity, and it quickly evolved into a fulfilling career. I
