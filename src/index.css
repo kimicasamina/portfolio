@@ -32,7 +32,7 @@
     font-family: "Inter", sans-serif;
     @apply text-lg;
     @apply bg-slate-800 text-slate-50;
-    @apply max-w-screen-xl mx-auto;
+    @apply max-w-[1440px] mx-auto;
   }
 
   li {

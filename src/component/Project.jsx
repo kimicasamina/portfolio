@@ -18,7 +18,7 @@ function Project({ project }) {
               {project.name}
             </h2>
             <p
-              className="max-w-[70%] leading-snug  text-base font-reddit text-green-200"
+              className="w-full sm:max-w-[70%] leading-snug  text-base font-reddit text-green-200"
               style={{ textWrap: "pretty" }}
             >
               {project.desc}

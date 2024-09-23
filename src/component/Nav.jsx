@@ -1,6 +1,9 @@
 import React, { useEffect, useState, useRef } from "react";
+import pepe from "../asset/gif/_.gif";
+import { useGlitch } from "react-powerglitch";
 
 export default function Nav() {
+  const glitch = useGlitch();
   const [activeSection, setActiveSection] = useState(null);
   const sections = useRef([]);
   console.log("ACTIVE SESSION:", activeSection);
@@ -34,7 +37,7 @@ export default function Nav() {
   }, []);
 
   return (
-    <nav className="flex sm:flex-col sm:items-end sticky top-12 sm:right-12 self-end gap-y-1 z-10 gap-x-4 mr-4 sm:mr-0">
+    <nav className="flex sm:flex-col sm:items-end sticky top-12 sm:right-12 self-end gap-y-1 z-10 gap-x-4 mr-4 sm:mr-12">
       <li className="relative">
         <a
           className={`navlink text-green-200 font-semibold ${
@@ -68,6 +71,13 @@ export default function Nav() {
           Contact
         </a>
       </li>
+
+      <img
+        src={pepe}
+        alt=""
+        className="w-[44px] h-[44px] rounded-full "
+        ref={glitch.ref}
+      />
     </nav>
   );
 }
