@@ -28,6 +28,8 @@ import {
   day1_5,
   day1_6,
   day1_7,
+  day1_8,
+  day1_9,
 } from "../asset";
 
 // icons
@@ -78,7 +80,17 @@ export const projects = [
     id: 3,
     name: "day1",
     desc: "The Habit Tracker application is designed to help users build and maintain positive habits. Users can create, edit, and delete habits, track their progress, and visualize their performance over time.",
-    images: [day1_1, day1_2, day1_3, day1_4, day1_5, day1_6, day1_7],
+    images: [
+      day1_1,
+      day1_2,
+      day1_3,
+      day1_4,
+      day1_5,
+      day1_6,
+      day1_7,
+      day1_8,
+      day1_9,
+    ],
     live_url: "https://day1-habit-tracker.onrender.com",
     github_link: "https://github.com/kimicasamina/day1",
   },
