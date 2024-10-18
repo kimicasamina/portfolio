@@ -183,16 +183,26 @@ export const skills = [
   },
   {
     id: 15,
+    label: "Python",
+    icon: SiPython,
+  },
+  {
+    id: 16,
+    label: "Django",
+    icon: SiDjango,
+  },
+  {
+    id: 17,
     label: "Laravel",
     icon: SiLaravel,
   },
   {
-    id: 16,
+    id: 18,
     label: "Npm",
     icon: SiNpm,
   },
   {
-    id: 17,
+    id: 19,
     label: "Vite",
     icon: SiVite,
   },
