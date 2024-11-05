@@ -206,11 +206,11 @@ export const skills = [
     label: "Vite",
     icon: SiVite,
   },
-  // {
-  //   id: 14,
-  //   label: "TypeScript",
-  //   icon: SiTypescript,
-  // },
+  {
+    id: 20,
+    label: "TypeScript",
+    icon: SiTypescript,
+  },
   // {
   //   id: 15,
   //   label: "GraphQL",

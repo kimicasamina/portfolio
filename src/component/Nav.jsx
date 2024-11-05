@@ -52,6 +52,17 @@ export default function Nav() {
       <li className="relative">
         <a
           className={`navlink text-green-200 font-semibold ${
+            activeSection === "skills" ? "navlink--active" : {}
+          }`}
+          // activeClass="active"
+          href="#skills"
+        >
+          Skills
+        </a>
+      </li>
+      <li className="relative">
+        <a
+          className={`navlink text-green-200 font-semibold ${
             activeSection === "portfolio" ? "navlink--active" : {}
           }`}
           // activeClass="active"

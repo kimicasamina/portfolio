@@ -10,6 +10,7 @@ export default function App() {
     <div className="app w-full max-w-[1440px] h-full flex flex-col relative ">
       <Nav />
       <Hero />
+      <Skills />
       <Portfolio />
       <Contact />
     </div>
