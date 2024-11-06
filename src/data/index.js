@@ -31,6 +31,19 @@ import {
   day1_8,
   day1_9,
 } from "../asset";
+import {
+  rps,
+  rps2,
+  rps3,
+  rps4,
+  bgGenerator,
+  hotelBookingApp1,
+  hotelBookingApp2,
+  bookmark1,
+  bookmark2,
+  bookmark3,
+  bookmark4,
+} from "../asset";
 
 // icons
 import { SiHtml5 } from "react-icons/si";
@@ -101,6 +114,36 @@ export const projects = [
     images: [rssSlide1, rssSlide2, rssSlide3, rssSlide4, rssSlide5],
     live_url: "https://rssreader-3zjk.onrender.com/",
     github_link: "https://github.com/kimicasamina/rss-reader",
+  },
+  {
+    id: 5,
+    name: "Hotel Booking App",
+    desc: "Hotel booking app management with login and register feature",
+    images: [hotelBookingApp1, hotelBookingApp2],
+    live_url: "https://hotel-booking-app-mernstack.onrender.com/api/hotels",
+    github_link: "https://github.com/kimicasamina/hotel-booking-app",
+  },
+  {
+    id: 6,
+    name: "Bg Generator",
+    desc: "A simple background generator app build with JavaScript, CSS, and HTML",
+    images: [bgGenerator, bgGenerator],
+    live_url: "https://github.com/kimicasamina/css-background-generator",
+    github_link: "https://kimicasamina.github.io/css-background-generator/",
+  },
+  {
+    id: 7,
+    name: "Rock, Paper, Scissor",
+    desc: "A simple rock paper scissor game built using javascript, css, and html",
+    images: [rps, rps2, rps3, rps4],
+    live_url: "https://kimicasamina.github.io/rock-paper-scissors/",
+    github_url: "https://github.com/kimicasamina/rock-paper-scissors",
+  },
+  {
+    id: 8,
+    name: "Bookmark Landing Page",
+    desc: "Bookmark landing page, built with javascript, html, and css.",
+    images: [bookmark1, bookmark2, bookmark3, bookmark4],
   },
 ];
 
