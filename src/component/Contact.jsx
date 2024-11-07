@@ -40,7 +40,7 @@ export default function Contact() {
         onSubmit={sendEmail}
         ref={form}
       >
-        <h1 className="mb-4 text-4xl text-green-200">> CONTACT</h1>
+        <h1 className="mb-4 text-4xl text-green-200"> CONTACT</h1>
         <div className="w-full flex flex-col gap-y-2">
           <label for="from_name" className="font-semibold text-green-200">
             Name

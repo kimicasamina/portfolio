@@ -135,7 +135,7 @@ export const projects = [
     id: 7,
     name: "Rock, Paper, Scissor",
     desc: "A simple rock paper scissor game built using javascript, css, and html",
-    images: [rps, rps2, rps3, rps4],
+    images: [rps, rps2],
     live_url: "https://kimicasamina.github.io/rock-paper-scissors/",
     github_url: "https://github.com/kimicasamina/rock-paper-scissors",
   },
