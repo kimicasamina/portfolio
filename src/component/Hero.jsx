@@ -50,11 +50,11 @@ export default function Hero() {
 
               <p className="text-sm">
                 My journey as a developer is driven by a deep curiosity and a
-                desire to find my place in the world, where I can grow, evolve
-                and contribute in a meaningful way. I’m always looking to
-                improve my skills through personal projects and hands-on
-                experience. I enjoy experimenting with new tools, exploring best
-                practices, and methodologies to refine my development process.
+                desire to find my place in the world, where I can grow and
+                contribute in a meaningful way. I’m always looking to improve my
+                skills through personal projects and hands-on experience. I
+                enjoy experimenting with new tools, exploring best practices,
+                and methodologies to refine my development process.
               </p>
 
               <p className="text-sm">
