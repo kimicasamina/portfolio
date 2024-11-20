@@ -32,10 +32,6 @@ import {
   day1_9,
 } from "../asset";
 import {
-  rps,
-  rps2,
-  rps3,
-  rps4,
   bgGenerator,
   hotelBookingApp1,
   hotelBookingApp2,
@@ -44,6 +40,8 @@ import {
   bookmark3,
   bookmark4,
 } from "../asset";
+import { rps } from "../asset";
+import { pomodoro1, pomodoro2 } from "../asset";
 
 // icons
 import { SiHtml5 } from "react-icons/si";
@@ -68,8 +66,9 @@ import { SiPhp } from "react-icons/si";
 import { SiLaravel } from "react-icons/si";
 import { SiPython } from "react-icons/si";
 import { SiDjango } from "react-icons/si";
-
 import { SiMysql } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
+import { SiSequelize } from "react-icons/si";
 
 export const projects = [
   {
@@ -120,7 +119,7 @@ export const projects = [
     name: "Hotel Booking App",
     desc: "Hotel booking app management with login and register feature",
     images: [hotelBookingApp1, hotelBookingApp2],
-    live_url: "https://hotel-booking-app-mernstack.onrender.com/api/hotels",
+    live_url: "https://hotel-booking-app-fullstack-mern.onrender.com/",
     github_link: "https://github.com/kimicasamina/hotel-booking-app",
   },
   {
@@ -128,22 +127,24 @@ export const projects = [
     name: "Bg Generator",
     desc: "A simple background generator app build with JavaScript, CSS, and HTML",
     images: [bgGenerator, bgGenerator],
-    live_url: "https://github.com/kimicasamina/css-background-generator",
+    live_url: "https://kimicasamina.github.io/css-background-generator/",
     github_link: "https://kimicasamina.github.io/css-background-generator/",
   },
   {
     id: 7,
     name: "Rock, Paper, Scissor",
     desc: "A simple rock paper scissor game built using javascript, css, and html",
-    images: [rps2, rps2],
+    images: [rps, rps],
     live_url: "https://kimicasamina.github.io/rock-paper-scissors/",
     github_url: "https://github.com/kimicasamina/rock-paper-scissors",
   },
   {
     id: 8,
-    name: "Bookmark Landing Page",
-    desc: "Bookmark landing page, built with javascript, html, and css.",
-    images: [bookmark1, bookmark2, bookmark3, bookmark4],
+    name: "Pomodoro",
+    desc: "A simple pomodoro timer that has a 25 minutes interval. For every pomodoro you finished, you'll gain a tomato. The user can pause and reset the timer.",
+    images: [pomodoro1, pomodoro2],
+    live_url: "https://kimicasamina.github.io/pomodoro-timer/",
+    github_url: "https://github.com/kimicasamina/pomodoro-timer",
   },
 ];
 
@@ -258,6 +259,16 @@ export const skills = [
     id: 21,
     label: "Jest",
     icon: SiJest,
+  },
+  {
+    id: 22,
+    label: "Postgresql",
+    icon: SiPostgresql,
+  },
+  {
+    id: 23,
+    label: "Sequelize",
+    icon: SiSequelize,
   },
   // {
   //   id: 15,

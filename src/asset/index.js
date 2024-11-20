@@ -26,10 +26,6 @@ import day1_6 from "./day1/day1_6.png";
 import day1_7 from "./day1/day1_7.png";
 import day1_8 from "./day1/day1_8.png";
 import day1_9 from "./day1/day1_9.png";
-import rps from "./rockpaperscissor/rockpaperscissor.png";
-import rps2 from "./rockpaperscissor/rockpaperscissor2.png";
-import rps3 from "./rockpaperscissor/rockpaperscissor3.png";
-import rps4 from "./rockpaperscissor/rockpaperscissor4.png";
 import bgGenerator from "./bg-generator/bg-generator.png";
 import hotelBookingApp1 from "./hotel-booking-app/hotel-booking-app1.png";
 import hotelBookingApp2 from "./hotel-booking-app/hotel-booking-app2.png";
@@ -37,16 +33,20 @@ import bookmark1 from "./bookmark-landing-page/bookmark1.png";
 import bookmark2 from "./bookmark-landing-page/bookmark2.png";
 import bookmark3 from "./bookmark-landing-page/bookmark3.png";
 import bookmark4 from "./bookmark-landing-page/bookmark4.png";
+import pepe from "./gif/_.gif";
+import rps from "./rps/rps.png";
+import pomodoro1 from "./pomodoro/pomodoro1.png";
+import pomodoro2 from "./pomodoro/pomodoro2.png";
 
 export {
   bookmark1,
   bookmark2,
   bookmark3,
   bookmark4,
+  pepe,
   rps,
-  rps2,
-  rps3,
-  rps4,
+  pomodoro1,
+  pomodoro2,
   bgGenerator,
   hotelBookingApp1,
   hotelBookingApp2,

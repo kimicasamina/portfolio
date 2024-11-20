@@ -39,13 +39,9 @@ export default function Hero() {
                 development. Over the years, I’ve built a strong foundation in
                 full-stack development, with a primary focus on the MERN stack
                 (MongoDB, Express.js, React.js, Node.js). Along the way, I’ve
-                expanded my skill set by diving into other powerful back-end
+                expanded my skill set by exploring other powerful back-end
                 frameworks such as Django and Laravel as well as working with
-                relational databases such as MySQL and PostgreSQL. I enjoy the
-                challenge of building both the front-end and back-end of
-                applications, integrating them seamlessly, whether it’s building
-                user interfaces, creating data models, developing APIs, or
-                deploying to the server.
+                relational databases such as MySQL and PostgreSQL.
               </p>
 
               <p className="text-sm">
