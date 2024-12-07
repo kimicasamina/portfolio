@@ -43,9 +43,9 @@ export default function Hero() {
               </p>
 
               <p className="text-sm">
-                On the front-end, I create dynamic, responsive UIs with React.js
-                and Tailwind CSS, supported by a solid foundation in HTML,
-                JavaScript, CSS, and Sass.
+                On the front-end, I specialize in creating dynamic, responsive
+                UIs with React.js and Tailwind CSS, supported by a solid
+                foundation in HTML, JavaScript, CSS, and Sass.
               </p>
 
               <p className="text-sm">
