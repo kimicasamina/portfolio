@@ -34,41 +34,44 @@ export default function Hero() {
             <div className="max-w-[70%] text-green-200 leading-snug   text-sm sm:text-base flex flex-col gap-y-8">
               <p className="text-sm">
                 {" "}
-                I’m a self-taught developer with a passion for solving
-                real-world problems through programming and software
-                development. Over the years, I’ve built a strong foundation in
-                full-stack development, with a primary focus on the MERN stack
-                (MongoDB, Express.js, React.js, Node.js). Along the way, I’ve
-                expanded my skill set by exploring other powerful back-end
-                frameworks such as Django and Laravel as well as working with
-                relational databases such as MySQL and PostgreSQL.
+                I’m a full-stack developer with expertise in building backend
+                APIs using Node.js, Express.js, and MongoDB, as well as
+                relational databases like PostgreSQL and MySQL, utilizing
+                Sequelize ORM for scalability and maintainability. I am
+                dedicated to writing clean, secure, efficient, and scalable code
+                to build robust backend systems.
               </p>
 
               <p className="text-sm">
-                My journey as a developer is driven by a deep curiosity and a
-                desire to find my place in the world, where I can grow and
-                contribute in a meaningful way. I’m always looking to improve my
-                skills through personal projects and hands-on experience. I
-                enjoy experimenting with new tools, exploring best practices,
-                and methodologies to refine my development process.
+                On the front-end, I create dynamic, responsive UIs with React.js
+                and Tailwind CSS, supported by a solid foundation in HTML,
+                JavaScript, CSS, and Sass.
               </p>
 
               <p className="text-sm">
-                Beyond just coding, I am passionate about solving complex
-                problems and transforming ideas into practical solutions.
-                Whether it’s building responsive front-end interfaces or
-                architecting back-end systems, I approach each project with a
-                focus on quality and long-term growth. My ultimate goal is to
-                contribute meaningfully to a collaborative and dynamic
-                development team, where I can continue to grow both
-                professionally and personally, while tackling challenging and
-                rewarding projects.
+                In addition to my core technologies, I’ve explored backend
+                frameworks like PHP and Laravel and enjoyed using tools such as
+                TypeScript and Jest for testing. I’m also experienced in
+                deploying applications on Render and optimizing projects for
+                production using Webpack and Babel.
               </p>
 
               <p className="text-sm">
-                In my free time, you’ll often find me enjoying the sun, whether
-                it’s soaking up a peaceful afternoon outside or relishing the
-                gentle, warm breeze and golden glow of a sunset.
+                My personal projects have been key to expanding my skill set.
+                Providing opportunities to experiment with new technologies, and
+                refine my development process.
+              </p>
+              <p className="text-sm">
+                Feel free to check out some of my work on{" "}
+                <span className="text-sm text-yellow">
+                  <a
+                    // activeClass="active"
+                    target="_blank"
+                    href="https://github.com/kimicasamina"
+                  >
+                    Github
+                  </a>
+                </span>
               </p>
             </div>
           </div>

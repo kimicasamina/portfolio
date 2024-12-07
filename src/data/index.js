@@ -42,6 +42,15 @@ import {
 } from "../asset";
 import { rps } from "../asset";
 import { pomodoro1, pomodoro2 } from "../asset";
+import {
+  passthesalt_1,
+  passthesalt_2,
+  passthesalt_3,
+  passthesalt_4,
+  passthesalt_5,
+  passthesalt_6,
+  passthesalt_7,
+} from "../asset";
 
 // icons
 import { SiHtml5 } from "react-icons/si";
@@ -69,6 +78,8 @@ import { SiDjango } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiPostgresql } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
+import { SiBabel } from "react-icons/si";
+import { SiWebpack } from "react-icons/si";
 
 export const projects = [
   {
@@ -116,6 +127,22 @@ export const projects = [
   },
   {
     id: 5,
+    name: "Passthesalt",
+    desc: "Password manager application designed to securely store and retrieve user login credentials. The system ensures that passwords are encrypted before being saved to the database and can only be decrypted when needed by the client. Built using React.js with Vite and Tailwind CSS for the frontend, and Node.js, Sequelize, and PostgreSQL for the backend.",
+    images: [
+      passthesalt_1,
+      passthesalt_2,
+      passthesalt_3,
+      passthesalt_4,
+      passthesalt_5,
+      passthesalt_6,
+      passthesalt_7,
+    ],
+    live_url: "https://passthesalt-frontend.onrender.com/",
+    github_url: "https://github.com/kimicasamina/passthesalt-password-manager",
+  },
+  {
+    id: 6,
     name: "Hotel Booking App",
     desc: "Hotel booking app management with login and register feature",
     images: [hotelBookingApp1, hotelBookingApp2],
@@ -123,7 +150,7 @@ export const projects = [
     github_link: "https://github.com/kimicasamina/hotel-booking-app",
   },
   {
-    id: 6,
+    id: 7,
     name: "Bg Generator",
     desc: "A simple background generator app build with JavaScript, CSS, and HTML",
     images: [bgGenerator, bgGenerator],
@@ -131,7 +158,7 @@ export const projects = [
     github_link: "https://kimicasamina.github.io/css-background-generator/",
   },
   {
-    id: 7,
+    id: 8,
     name: "Rock, Paper, Scissor",
     desc: "A simple rock paper scissor game built using javascript, css, and html",
     images: [rps, rps],
@@ -139,7 +166,7 @@ export const projects = [
     github_url: "https://github.com/kimicasamina/rock-paper-scissors",
   },
   {
-    id: 8,
+    id: 9,
     name: "Pomodoro",
     desc: "A simple pomodoro timer that has a 25 minutes interval. For every pomodoro you finished, you'll gain a tomato. The user can pause and reset the timer.",
     images: [pomodoro1, pomodoro2],
@@ -269,6 +296,16 @@ export const skills = [
     id: 23,
     label: "Sequelize",
     icon: SiSequelize,
+  },
+  {
+    id: 24,
+    label: "Babel",
+    icon: SiBabel,
+  },
+  {
+    id: 25,
+    label: "Webpack",
+    icon: SiWebpack,
   },
   // {
   //   id: 15,

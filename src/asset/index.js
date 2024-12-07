@@ -37,6 +37,13 @@ import pepe from "./gif/_.gif";
 import rps from "./rps/rps.png";
 import pomodoro1 from "./pomodoro/pomodoro1.png";
 import pomodoro2 from "./pomodoro/pomodoro2.png";
+import passthesalt_1 from "./passthesalt/passthesalt_1.png";
+import passthesalt_2 from "./passthesalt/passthesalt_2.png";
+import passthesalt_3 from "./passthesalt/passthesalt_3.png";
+import passthesalt_4 from "./passthesalt/passthesalt_4.png";
+import passthesalt_5 from "./passthesalt/passthesalt_5.png";
+import passthesalt_6 from "./passthesalt/passthesalt_6.png";
+import passthesalt_7 from "./passthesalt/passthesalt_7.png";
 
 export {
   bookmark1,
@@ -78,4 +85,11 @@ export {
   day1_7,
   day1_8,
   day1_9,
+  passthesalt_1,
+  passthesalt_2,
+  passthesalt_3,
+  passthesalt_4,
+  passthesalt_5,
+  passthesalt_6,
+  passthesalt_7,
 };
