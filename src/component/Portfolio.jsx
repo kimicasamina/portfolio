@@ -14,7 +14,7 @@ export default function Portfolio() {
       className="w-full h-full flex flex-col sectionWrapper"
     >
       <h1 className="mb-12 sm:mb-14 pb-14 text-green-200 text-4xl">
-        {">"} MY WORK
+        {">"} PORTFOLIO
       </h1>
       {projects.map((project, i) => (
         <Project project={project} key={project.id} />
