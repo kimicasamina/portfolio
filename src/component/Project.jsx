@@ -10,6 +10,7 @@ function Project({ project }) {
           images={project.images}
           github_link={project.github_link}
           live_url={project.live_url}
+          className="min-h-[500px]"
         />
 
         <div className="w-full flex flex-col items-center text-center gap-y-6">

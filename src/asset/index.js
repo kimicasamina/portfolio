@@ -26,6 +26,12 @@ import day1_6 from "./day1/day1_6.png";
 import day1_7 from "./day1/day1_7.png";
 import day1_8 from "./day1/day1_8.png";
 import day1_9 from "./day1/day1_9.png";
+import bukopy1 from "./bukopy/bukopy1.png";
+import bukopy2 from "./bukopy/bukopy2.png";
+import bukopy3 from "./bukopy/bukopy3.png";
+import bukopy4 from "./bukopy/bukopy4.png";
+import bukopy5 from "./bukopy/bukopy5.png";
+import bukopy6 from "./bukopy/bukopy6.png";
 import bgGenerator from "./bg-generator/bg-generator.png";
 import hotelBookingApp1 from "./hotel-booking-app/hotel-booking-app1.png";
 import hotelBookingApp2 from "./hotel-booking-app/hotel-booking-app2.png";
@@ -85,6 +91,12 @@ export {
   day1_7,
   day1_8,
   day1_9,
+  bukopy1,
+  bukopy2,
+  bukopy3,
+  bukopy4,
+  bukopy5,
+  bukopy6,
   passthesalt_1,
   passthesalt_2,
   passthesalt_3,

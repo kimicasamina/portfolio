@@ -52,6 +52,8 @@ import {
   passthesalt_7,
 } from "../asset";
 
+import { bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6 } from "../asset";
+
 // icons
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
@@ -143,6 +145,15 @@ export const projects = [
   },
   {
     id: 6,
+    name: "Bukopy Blog",
+    desc: "A simple blogging platform using Django. The platform allows both logged-in users and guests to view and browse blog posts. It also supports basic CRUD (Create, Read, Update, Delete) operations for managing blog posts.",
+    images: [bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6],
+    live_url: "https://bukopy-blogsite.onrender.com/",
+    github_link: "https://github.com/kimicasamina/bukopy-django-blogsite",
+  },
+
+  {
+    id: 7,
     name: "Hotel Booking App",
     desc: "Hotel booking app management with login and register feature",
     images: [hotelBookingApp1, hotelBookingApp2],
@@ -150,7 +161,7 @@ export const projects = [
     github_link: "https://github.com/kimicasamina/hotel-booking-app",
   },
   {
-    id: 7,
+    id: 8,
     name: "Bg Generator",
     desc: "A simple background generator app build with JavaScript, CSS, and HTML",
     images: [bgGenerator, bgGenerator],
@@ -158,7 +169,7 @@ export const projects = [
     github_link: "https://kimicasamina.github.io/css-background-generator/",
   },
   {
-    id: 8,
+    id: 9,
     name: "Rock, Paper, Scissor",
     desc: "A simple rock paper scissor game built using javascript, css, and html",
     images: [rps, rps],
@@ -166,7 +177,7 @@ export const projects = [
     github_url: "https://github.com/kimicasamina/rock-paper-scissors",
   },
   {
-    id: 9,
+    id: 10,
     name: "Pomodoro",
     desc: "A simple pomodoro timer that has a 25 minutes interval. For every pomodoro you finished, you'll gain a tomato. The user can pause and reset the timer.",
     images: [pomodoro1, pomodoro2],
