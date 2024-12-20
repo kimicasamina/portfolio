@@ -21,15 +21,15 @@ import {
   gtwLogin,
 } from "../asset";
 import {
-  day1_1,
-  day1_2,
-  day1_3,
-  day1_4,
-  day1_5,
-  day1_6,
-  day1_7,
-  day1_8,
-  day1_9,
+  day11,
+  day12,
+  day13,
+  day14,
+  day15,
+  day16,
+  day17,
+  day18,
+  day19,
 } from "../asset";
 import {
   bgGenerator,
@@ -43,13 +43,11 @@ import {
 import { rps } from "../asset";
 import { pomodoro1, pomodoro2 } from "../asset";
 import {
-  passthesalt_1,
-  passthesalt_2,
-  passthesalt_3,
-  passthesalt_4,
-  passthesalt_5,
-  passthesalt_6,
-  passthesalt_7,
+  passthesalt1,
+  passthesalt2,
+  passthesalt3,
+  passthesalt4,
+  passthesalt5,
 } from "../asset";
 
 import { bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6 } from "../asset";
@@ -105,17 +103,7 @@ export const projects = [
     id: 3,
     name: "day1",
     desc: "The Habit Tracker application is designed to help users build and maintain positive habits. Users can create, edit, and delete habits, track their progress, and visualize their performance over time.",
-    images: [
-      day1_1,
-      day1_2,
-      day1_3,
-      day1_4,
-      day1_5,
-      day1_6,
-      day1_7,
-      day1_8,
-      day1_9,
-    ],
+    images: [day11, day12, day13, day14, day15, day16, day17, day18, day19],
     live_url: "https://day1-habit-tracker.onrender.com",
     github_link: "https://github.com/kimicasamina/day1",
   },
@@ -132,13 +120,11 @@ export const projects = [
     name: "Passthesalt",
     desc: "Password manager application designed to securely store and retrieve user login credentials. The system ensures that passwords are encrypted before being saved to the database and can only be decrypted when needed by the client. Built using React.js with Vite and Tailwind CSS for the frontend, and Node.js, Sequelize, and PostgreSQL for the backend.",
     images: [
-      passthesalt_1,
-      passthesalt_2,
-      passthesalt_3,
-      passthesalt_4,
-      passthesalt_5,
-      passthesalt_6,
-      passthesalt_7,
+      passthesalt1,
+      passthesalt2,
+      passthesalt3,
+      passthesalt4,
+      passthesalt5,
     ],
     live_url: "https://passthesalt-frontend.onrender.com/",
     github_url: "https://github.com/kimicasamina/passthesalt-password-manager",

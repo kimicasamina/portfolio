@@ -17,15 +17,15 @@ import rssSlide2 from "./rss/rss2.png";
 import rssSlide3 from "./rss/rss3.png";
 import rssSlide4 from "./rss/rss4.png";
 import rssSlide5 from "./rss/rss5.png";
-import day1_1 from "./day1/day1_1.png";
-import day1_2 from "./day1/day1_2.png";
-import day1_3 from "./day1/day1_3.png";
-import day1_4 from "./day1/day1_4.png";
-import day1_5 from "./day1/day1_5.png";
-import day1_6 from "./day1/day1_6.png";
-import day1_7 from "./day1/day1_7.png";
-import day1_8 from "./day1/day1_8.png";
-import day1_9 from "./day1/day1_9.png";
+import day11 from "./day1/day11.png";
+import day12 from "./day1/day12.png";
+import day13 from "./day1/day13.png";
+import day14 from "./day1/day14.png";
+import day15 from "./day1/day15.png";
+import day16 from "./day1/day16.png";
+import day17 from "./day1/day17.png";
+import day18 from "./day1/day18.png";
+import day19 from "./day1/day19.png";
 import bukopy1 from "./bukopy/bukopy1.png";
 import bukopy2 from "./bukopy/bukopy2.png";
 import bukopy3 from "./bukopy/bukopy3.png";
@@ -43,13 +43,11 @@ import pepe from "./gif/_.gif";
 import rps from "./rps/rps.png";
 import pomodoro1 from "./pomodoro/pomodoro1.png";
 import pomodoro2 from "./pomodoro/pomodoro2.png";
-import passthesalt_1 from "./passthesalt/passthesalt_1.png";
-import passthesalt_2 from "./passthesalt/passthesalt_2.png";
-import passthesalt_3 from "./passthesalt/passthesalt_3.png";
-import passthesalt_4 from "./passthesalt/passthesalt_4.png";
-import passthesalt_5 from "./passthesalt/passthesalt_5.png";
-import passthesalt_6 from "./passthesalt/passthesalt_6.png";
-import passthesalt_7 from "./passthesalt/passthesalt_7.png";
+import passthesalt1 from "./passthesalt/passthesalt1.png";
+import passthesalt2 from "./passthesalt/passthesalt2.png";
+import passthesalt3 from "./passthesalt/passthesalt3.png";
+import passthesalt4 from "./passthesalt/passthesalt4.png";
+import passthesalt5 from "./passthesalt/passthesalt5.png";
 
 export {
   bookmark1,
@@ -82,26 +80,24 @@ export {
   rssSlide3,
   rssSlide4,
   rssSlide5,
-  day1_1,
-  day1_2,
-  day1_3,
-  day1_4,
-  day1_5,
-  day1_6,
-  day1_7,
-  day1_8,
-  day1_9,
+  day11,
+  day12,
+  day13,
+  day14,
+  day15,
+  day16,
+  day17,
+  day18,
+  day19,
   bukopy1,
   bukopy2,
   bukopy3,
   bukopy4,
   bukopy5,
   bukopy6,
-  passthesalt_1,
-  passthesalt_2,
-  passthesalt_3,
-  passthesalt_4,
-  passthesalt_5,
-  passthesalt_6,
-  passthesalt_7,
+  passthesalt1,
+  passthesalt2,
+  passthesalt3,
+  passthesalt4,
+  passthesalt5,
 };

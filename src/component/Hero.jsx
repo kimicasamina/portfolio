@@ -49,11 +49,11 @@ export default function Hero() {
               </p>
 
               <p className="text-sm">
-                In addition to my core technologies, I’ve explored backend
-                frameworks like PHP and Laravel and enjoyed using tools such as
-                TypeScript and Jest for testing. I’m also experienced in
-                deploying applications on Render and optimizing projects for
-                production using Webpack and Babel.
+                In addition to my core technologies, I have experience using
+                other backend frameworks like Django and Laravel and enjoyed
+                using tools such as TypeScript and Jest for testing. I’m also
+                experienced in deploying applications on Render and optimizing
+                projects for production using Webpack and Babel.
               </p>
 
               <p className="text-sm">
