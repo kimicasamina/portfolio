@@ -34,32 +34,35 @@ export default function Hero() {
             <div className="max-w-[70%] text-green-200 leading-snug   text-sm sm:text-base flex flex-col gap-y-8">
               <p className="text-sm">
                 {" "}
-                I’m a full-stack developer with expertise in building backend
-                APIs using Node.js, Express.js, and MongoDB, as well as
-                relational databases like PostgreSQL and MySQL, utilizing
-                Sequelize ORM for scalability and maintainability. I am
-                dedicated to writing clean, secure, efficient, and scalable code
-                to build robust backend systems.
+                I am a Full-Stack Web Developer skilled in building secure and
+                scalable backend APIs and servers. I have experience with
+                Node.js and Express.js for server-side development, as well as
+                Django for Python-based applications. I specialize in creating
+                efficient and secure APIs, ensuring data integrity and safe
+                authentication.
               </p>
 
               <p className="text-sm">
-                On the front-end, I specialize in creating dynamic, responsive
-                UIs with React.js and Tailwind CSS, supported by a solid
-                foundation in HTML, JavaScript, CSS, and Sass.
+                On the front end, I am proficient in React.js and TailwindCSS,
+                building dynamic and responsive user interfaces that integrate
+                seamlessly with backend frameworks. Additionally, I am skilled
+                in creating static web pages using HTML, EJS, CSS, and Sass,
+                ensuring my applications are both functional and visually
+                appealing.
               </p>
 
               <p className="text-sm">
-                In addition to my core technologies, I have experience using
-                other backend frameworks like Django and Laravel and enjoyed
-                using tools such as TypeScript and Jest for testing. I’m also
-                experienced in deploying applications on Render and optimizing
-                projects for production using Webpack and Babel.
+                I have solid experience working with both SQL and NoSQL
+                databases, including PostgreSQL, MySQL, and MongoDB, and I use
+                Sequelize ORM to manage relational database efficiently. I am
+                also well-versed in Git for version control and build tools like
+                Webpack and Babel.
               </p>
 
               <p className="text-sm">
-                My personal projects have been key to expanding my skill set.
-                Providing opportunities to experiment with new technologies, and
-                refine my development process.
+                I am committed to writing clean, maintainable code and following
+                best practices to ensure optimal performance and long-term
+                scalability.
               </p>
               <p className="text-sm">
                 Feel free to check out some of my work on{" "}
