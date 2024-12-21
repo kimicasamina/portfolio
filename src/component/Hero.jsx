@@ -33,38 +33,41 @@ export default function Hero() {
             </p>
             <div className="max-w-[70%] text-green-200 leading-snug   text-sm sm:text-base flex flex-col gap-y-8">
               <p className="text-sm">
-                {" "}
-                I am a Full-Stack Web Developer skilled in building secure and
-                scalable backend APIs and servers. I have experience with
-                Node.js and Express.js for server-side development, as well as
-                Django for Python-based applications. I specialize in creating
-                efficient and secure APIs, ensuring data integrity and safe
-                authentication.
+                I’m a Full-Stack Web Developer with a focus on building secure,
+                scalable web applications. I have experience working on both the
+                front-end and back-end, creating RESTful APIs and dynamic user
+                interfaces.
               </p>
 
               <p className="text-sm">
-                On the front end, I am proficient in React.js and TailwindCSS,
-                building dynamic and responsive user interfaces that integrate
-                seamlessly with backend frameworks. Additionally, I am skilled
-                in creating static web pages using HTML, EJS, CSS, and Sass,
-                ensuring my applications are both functional and visually
-                appealing.
+                For back-end development, I use Node.js and Express.js to build
+                scalable applications, and Django for Python-based projects. I
+                prioritize security and maintainability, implementing best
+                practices such as authentication, encryption, and input
+                validation.
               </p>
 
               <p className="text-sm">
-                I have solid experience working with both SQL and NoSQL
-                databases, including PostgreSQL, MySQL, and MongoDB, and I use
-                Sequelize ORM to manage relational database efficiently. I am
-                also well-versed in Git for version control and build tools like
-                Webpack and Babel.
+                On the front-end, I use React.js and TailwindCSS to create
+                responsive, user-friendly interfaces. I also have a solid
+                foundation in HTML, CSS, and Sass for building visually
+                appealing static websites.
               </p>
 
               <p className="text-sm">
-                I am committed to writing clean, maintainable code and following
-                best practices to ensure optimal performance and long-term
-                scalability.
+                I’m skilled with both SQL (PostgreSQL, MySQL) and NoSQL
+                (MongoDB) databases, using Sequelize ORM for managing relational
+                data. I use Git for version control and tools like Webpack and
+                Babel to optimize performance.
               </p>
+
               <p className="text-sm">
+                I’m passionate about writing clean, maintainable code and
+                staying up-to-date with the latest web development trends and
+                tools.
+              </p>
+
+              {/* <p className="text-sm">
                 Feel free to check out some of my work on{" "}
                 <span className="text-sm text-yellow">
                   <a
@@ -75,7 +78,7 @@ export default function Hero() {
                     Github
                   </a>
                 </span>
-              </p>
+              </p> */}
             </div>
           </div>
 

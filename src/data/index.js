@@ -107,14 +107,14 @@ export const projects = [
     live_url: "https://day1-habit-tracker.onrender.com",
     github_link: "https://github.com/kimicasamina/day1",
   },
-  {
-    id: 4,
-    name: "RSS Reader",
-    desc: "A Simple RSS Reader is a lightweight, user-friendly application designed to help users stay updated with their favorite news sources, blogs, and websites.",
-    images: [rssSlide1, rssSlide2, rssSlide3, rssSlide4, rssSlide5],
-    live_url: "https://rssreader-3zjk.onrender.com/",
-    github_link: "https://github.com/kimicasamina/rss-reader",
-  },
+  // {
+  //   id: 4,
+  //   name: "RSS Reader",
+  //   desc: "A Simple RSS Reader is a lightweight, user-friendly application designed to help users stay updated with their favorite news sources, blogs, and websites.",
+  //   images: [rssSlide1, rssSlide2, rssSlide3, rssSlide4, rssSlide5],
+  //   live_url: "https://rssreader-3zjk.onrender.com/",
+  //   github_link: "https://github.com/kimicasamina/rss-reader",
+  // },
   {
     id: 5,
     name: "Passthesalt",
