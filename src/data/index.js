@@ -85,7 +85,7 @@ export const projects = [
   {
     id: 1,
     name: "Get To Work",
-    desc: "A web-based project management and productivity tool that tracks progress in a visual and rewarding way.",
+    desc: "Get To Work is a full-stack web application built using Node.js, Express.js, React, TailwindCSS, and MongoDB. The application includes four core features: Project Management, Timer, Ambience, and Dashboard. The application is designed to help users manage projects, track tasks, set timers, create an ideal working environment, and monitor overall progress.",
     images: [gtwDashboard, gtwProject, gtwTimer, gtwAmbience, gtwLogin],
     live_url: "https://gettowork.onrender.com",
     github_link:

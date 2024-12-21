@@ -5,7 +5,7 @@ import Carousel from "./Carousel";
 function Project({ project }) {
   return (
     <>
-      <div className="flex flex-col gap-y-12 w-full max-w-[90%] mx-auto mb-60">
+      <div className="flex flex-col gap-y-12 w-full max-w-[70%] mx-auto mb-60">
         <Carousel
           images={project.images}
           github_link={project.github_link}
@@ -19,7 +19,7 @@ function Project({ project }) {
               {project.name}
             </h2>
             <p
-              className="w-full sm:max-w-[70%] leading-snug  text-base font-reddit text-green-200"
+              className="px-8 w-full leading-snug  text-sm font-reddit text-green-200"
               style={{ textWrap: "pretty" }}
             >
               {project.desc}
