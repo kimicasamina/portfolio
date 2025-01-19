@@ -36,7 +36,7 @@ function Carousel({ images, live_url, github_link }) {
   }
 
   return (
-    <div className="w-full h-[480px] mx-auto ">
+    <div className="w-full h-full mx-auto ">
       <Slider {...settings}>
         {images.map((image, i) => (
           <div className="">

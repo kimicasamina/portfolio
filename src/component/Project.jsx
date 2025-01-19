@@ -13,13 +13,13 @@ function Project({ project }) {
           className="min-h-[500px]"
         />
 
-        <div className="w-full flex flex-col items-center text-center gap-y-6">
-          <div className="flex flex-col items-center">
-            <h2 className="text-2xl md:text-4xl mb-4 text-green-200">
+        <div className="w-full flex flex-col items-center text-center gap-y-8">
+          <div className="flex flex-col gap-y-6 items-center">
+            <h2 className="text-2xl md:text-4xl text-green-200">
               {project.name}
             </h2>
             <p
-              className="px-8 w-full leading-snug  text-sm font-reddit text-green-200"
+              className="px-8 w-full leading-snug text-neutral-200 text-xs font-reddit 0"
               style={{ textWrap: "pretty" }}
             >
               {project.desc}
@@ -31,7 +31,7 @@ function Project({ project }) {
               href={project.github_link}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold  text-xl link duration-300 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
+              className="font-semibold  text-sm link duration-300 px-2 py-0 h-8 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
             >
               <img src={githubdark} alt="" />
               <span>Source Code</span>
@@ -40,7 +40,7 @@ function Project({ project }) {
               href={project.live_url}
               target="_blank"
               rel="noopener noreferrer"
-              className=" font-semibold  text-xl link duration-300 px-4 py-2 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
+              className=" font-semibold  text-sm link duration-300 px-2 py-0 h-8 rounded-lg shadow-md hover:shadow-lg cursor-pointer flex items-center gap-x-2 bg-green-200 text-black hover:bg-green-100"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

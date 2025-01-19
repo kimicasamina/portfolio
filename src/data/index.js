@@ -48,6 +48,9 @@ import {
   passthesalt3,
   passthesalt4,
   passthesalt5,
+  passthesalt6,
+  passthesalt7,
+  passthesalt8,
 } from "../asset";
 
 import { bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6 } from "../asset";
@@ -116,27 +119,30 @@ export const projects = [
   //   github_link: "https://github.com/kimicasamina/rss-reader",
   // },
   {
-    id: 5,
+    id: 4,
     name: "Passthesalt",
-    desc: "Password manager application designed to securely store and retrieve user login credentials. The system ensures that passwords are encrypted before being saved to the database and can only be decrypted when needed by the client. Built using React.js with Vite and Tailwind CSS for the frontend, and Node.js, Sequelize, and PostgreSQL for the backend.",
+    desc: "Passthesalt is a secure, full-stack password manager designed to safely store and manage user credentials. It uses advanced encryption to protect passwords and provides a seamless user experience, ensuring passwords are only decrypted when explicitly requested by the user.",
     images: [
       passthesalt1,
       passthesalt2,
       passthesalt3,
       passthesalt4,
       passthesalt5,
+      passthesalt6,
+      passthesalt7,
+      passthesalt8,
     ],
-    live_url: "https://passthesalt-frontend.onrender.com/",
-    github_url: "https://github.com/kimicasamina/passthesalt-password-manager",
+    live_url: "https://passthesalt-client.onrender.com/",
+    github_link: "https://github.com/kimicasamina/passthesalt-password-manager",
   },
-  {
-    id: 6,
-    name: "Bukopy Blog",
-    desc: "A simple blogging platform using Django. The platform allows both logged-in users and guests to view and browse blog posts. It also supports basic CRUD (Create, Read, Update, Delete) operations for managing blog posts.",
-    images: [bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6],
-    live_url: "https://bukopy-blogsite.onrender.com/",
-    github_link: "https://github.com/kimicasamina/bukopy-django-blogsite",
-  },
+  // {
+  //   id: 5,
+  //   name: "Bukopy Blog",
+  //   desc: "A simple blogging platform using Django. The platform allows both logged-in users and guests to view and browse blog posts. It also supports basic CRUD (Create, Read, Update, Delete) operations for managing blog posts.",
+  //   images: [bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6],
+  //   live_url: "https://bukopy-blogsite.onrender.com/",
+  //   github_link: "https://github.com/kimicasamina/bukopy-django-blogsite",
+  // },
 
   // {
   //   id: 7,
@@ -146,30 +152,30 @@ export const projects = [
   //   live_url: "https://hotel-booking-app-fullstack-mern.onrender.com/",
   //   github_link: "https://github.com/kimicasamina/hotel-booking-app",
   // },
-  {
-    id: 7,
-    name: "Bg Generator",
-    desc: "A simple background generator app build with JavaScript, CSS, and HTML",
-    images: [bgGenerator, bgGenerator],
-    live_url: "https://kimicasamina.github.io/css-background-generator/",
-    github_link: "https://kimicasamina.github.io/css-background-generator/",
-  },
-  {
-    id: 8,
-    name: "Rock, Paper, Scissor",
-    desc: "A simple rock paper scissor game built using javascript, css, and html",
-    images: [rps, rps],
-    live_url: "https://kimicasamina.github.io/rock-paper-scissors/",
-    github_url: "https://github.com/kimicasamina/rock-paper-scissors",
-  },
-  {
-    id: 9,
-    name: "Pomodoro",
-    desc: "A simple pomodoro timer that has a 25 minutes interval. For every pomodoro you finished, you'll gain a tomato. The user can pause and reset the timer.",
-    images: [pomodoro1, pomodoro2],
-    live_url: "https://kimicasamina.github.io/pomodoro-timer/",
-    github_url: "https://github.com/kimicasamina/pomodoro-timer",
-  },
+  // {
+  //   id: 7,
+  //   name: "Bg Generator",
+  //   desc: "A simple background generator app build with JavaScript, CSS, and HTML",
+  //   images: [bgGenerator, bgGenerator],
+  //   live_url: "https://kimicasamina.github.io/css-background-generator/",
+  //   github_link: "https://kimicasamina.github.io/css-background-generator/",
+  // },
+  // {
+  //   id: 8,
+  //   name: "Rock, Paper, Scissor",
+  //   desc: "A simple rock paper scissor game built using javascript, css, and html",
+  //   images: [rps, rps],
+  //   live_url: "https://kimicasamina.github.io/rock-paper-scissors/",
+  //   github_url: "https://github.com/kimicasamina/rock-paper-scissors",
+  // },
+  // {
+  //   id: 9,
+  //   name: "Pomodoro",
+  //   desc: "A simple pomodoro timer that has a 25 minutes interval. For every pomodoro you finished, you'll gain a tomato. The user can pause and reset the timer.",
+  //   images: [pomodoro1, pomodoro2],
+  //   live_url: "https://kimicasamina.github.io/pomodoro-timer/",
+  //   github_url: "https://github.com/kimicasamina/pomodoro-timer",
+  // },
 ];
 
 export const skills = [

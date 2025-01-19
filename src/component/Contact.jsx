@@ -36,61 +36,63 @@ export default function Contact() {
     >
       <form
         action=""
-        className="w-full flex flex-col gap-y-4 "
+        className="w-full flex flex-col gap-y-8 "
         onSubmit={sendEmail}
         ref={form}
       >
-        <h1 className="mb-4 text-4xl text-green-200"> CONTACT</h1>
-        <div className="w-full flex flex-col gap-y-2">
-          <label for="from_name" className="font-semibold text-green-200">
-            Name
-          </label>
-          <input
-            type="text"
-            id="from_name"
-            name="from_name"
-            placeholder="Enter your name"
-            className="p-2 border bg-green-100 outline-green-100 rounded-md"
-            required
-          />
-        </div>
-        <div className="w-full flex flex-col gap-y-2">
-          <label className="font-semibold text-green-200">Email</label>
-          <input
-            className="p-2 border bg-green-100 outline-green-100 rounded-md"
-            type="email"
-            id="from_email"
-            name="from_email"
-            placeholder="Your email.."
-            required
-          />
-        </div>
-        <div className="w-full flex flex-col gap-y-2">
-          <label className="font-semibold text-green-200">Message</label>
-          <textarea
-            className="p-2 border  h-44 bg-green-100 outline-green-100 rounded-md"
-            name="message"
-            rows="8"
-            cols="30"
-            placeholder="Your message.."
-            required
-          ></textarea>
-        </div>
-        {/* <button className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2">
+        <h1 className="mb-10 text-4xl text-green-200"> CONTACT</h1>
+        <div className="w-full max-w-[60%] mx-auto flex flex-col gap-y-8">
+          <div className=" flex flex-col gap-y-2">
+            <label for="from_name" className="font-semibold text-green-200">
+              Name
+            </label>
+            <input
+              type="text"
+              id="from_name"
+              name="from_name"
+              placeholder="Enter your name"
+              className="p-2 border bg-green-100 outline-green-100 rounded-md"
+              required
+            />
+          </div>
+          <div className="w-full flex flex-col gap-y-2">
+            <label className="font-semibold text-green-200">Email</label>
+            <input
+              className="p-2 border bg-green-100 outline-green-100 rounded-md"
+              type="email"
+              id="from_email"
+              name="from_email"
+              placeholder="Your email.."
+              required
+            />
+          </div>
+          <div className="w-full flex flex-col gap-y-2">
+            <label className="font-semibold text-green-200">Message</label>
+            <textarea
+              className="p-2 border  h-44 bg-green-100 outline-green-100 rounded-md"
+              name="message"
+              rows="8"
+              cols="30"
+              placeholder="Your message.."
+              required
+            ></textarea>
+          </div>
+          {/* <button className="p-2 border bg-slate-50 text-slate-700 font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2">
           SUBMIT
         </button> */}
-        <input
-          type="submit"
-          value="Send"
-          className="p-2 border  font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2 cursor-pointer bg-green-100 text-black hover:bg-green-200"
-          disabled={isSubmitting}
-        />
+          <input
+            type="submit"
+            value="Send"
+            className="p-2 border  font-semibold rounded-lg hover:shadow-2xl ease-in-out w-full mt-2 cursor-pointer bg-green-100 text-black hover:bg-green-200"
+            disabled={isSubmitting}
+          />
 
-        {stateMessage ? (
-          <p className="w-full rounded-md bg-slate-200 text-slate-900 p-2">
-            {stateMessage}
-          </p>
-        ) : null}
+          {stateMessage ? (
+            <p className="w-full rounded-md bg-slate-200 text-slate-900 p-2">
+              {stateMessage}
+            </p>
+          ) : null}
+        </div>
       </form>
     </section>
   );

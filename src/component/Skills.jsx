@@ -15,9 +15,7 @@ export default function Skills() {
       id="skills"
       className="w-full h-screen flex justify-center flex-col sectionWrapper"
     >
-      <h1 className="mb-6 sm:mb-8 pb-8 text-green-200 text-4xl">
-        {">"} SKILLS
-      </h1>
+      <h1 className="mb-6 sm:mb-8 pb-8 text-green-200 text-4xl">SKILLS</h1>
       {/* <div className="w-full max-w-[50%] flex flex-wrap gap-x-4 gap-y-4">
         <p>Frontend:</p>
         <div className="flex flex-wrap">

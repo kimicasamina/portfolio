@@ -48,6 +48,9 @@ import passthesalt2 from "./passthesalt/passthesalt2.png";
 import passthesalt3 from "./passthesalt/passthesalt3.png";
 import passthesalt4 from "./passthesalt/passthesalt4.png";
 import passthesalt5 from "./passthesalt/passthesalt5.png";
+import passthesalt6 from "./passthesalt/passthesalt6.png";
+import passthesalt7 from "./passthesalt/passthesalt7.png";
+import passthesalt8 from "./passthesalt/passthesalt8.png";
 
 export {
   bookmark1,
@@ -100,4 +103,7 @@ export {
   passthesalt3,
   passthesalt4,
   passthesalt5,
+  passthesalt6,
+  passthesalt7,
+  passthesalt8,
 };
