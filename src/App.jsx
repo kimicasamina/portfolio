@@ -9,7 +9,7 @@ import { useGlitch } from "react-powerglitch";
 export default function App() {
   const glitch = useGlitch();
   return (
-    <div className="app w-full max-w-[1440px] h-full flex flex-col relative ">
+    <div className="app w-full mx-auto h-full flex flex-col relative ">
       <Nav />
       <Hero />
       <Skills />

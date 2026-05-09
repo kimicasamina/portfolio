@@ -83,6 +83,10 @@ import { SiPostgresql } from "react-icons/si";
 import { SiSequelize } from "react-icons/si";
 import { SiBabel } from "react-icons/si";
 import { SiWebpack } from "react-icons/si";
+import { SiAmazon } from "react-icons/si";
+import { SiDocker } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
+import { SiGithubactions } from "react-icons/si";
 
 export const projects = [
   {
@@ -310,14 +314,29 @@ export const skills = [
     label: "Webpack",
     icon: SiWebpack,
   },
+  {
+    id: 26,
+    label: "NextJS",
+    icon: SiNextdotjs,
+  },
   // {
-  //   id: 15,
-  //   label: "GraphQL",
-  //   icon: SiGraphql,
-  // },
-  // {
-  //   id: 16,
-  //   label: "NextJS",
-  //   icon: SiNextdotjs,
-  // },
+  //   id: 27,
+  //   label: "Aws",
+  //   icon: SiAmazon,
+  // }, 
+  {
+    id: 28,
+    label: "Docker",
+    icon: SiDocker,
+  }, 
+  {
+    id: 29,
+    label: "Github",
+    icon: SiGithub,
+  }, 
+  {
+    id: 30,
+    label: "Github Actions",
+    icon: SiGithubactions,
+  }
 ];

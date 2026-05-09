@@ -27,10 +27,7 @@ export default function Hero() {
             className="mt-4 w-full max-w-[60%] text-xl text-neutral-200"
             style={{ textWrap: "pretty" }}
           >
-            I'm a full-stack developer based in Manila, specializing in building
-            scalable web applications with modern tools and technologies.
-            Passionate about writing clean code and earning metaphorical green
-            checkmarks.
+            Full-stack developer from Manila. Specializing in building scalable web applications with modern technologies. Dedicated to writing clean, maintainable code and delivering high-quality software solutions.
           </div>
         </div>
       </motion.div>
