@@ -1,4 +1,4 @@
-name: Auto Deploy Homelab
+name: Auto Deploy Self-Hosted Server
 
 on:
   push:
