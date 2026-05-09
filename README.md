@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-link: https://kimberlycasamina.onrender.com/
+link: kimcasamina.com
