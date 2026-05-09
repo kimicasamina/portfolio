@@ -139,14 +139,14 @@ export const projects = [
     live_url: "https://passthesalt-client.onrender.com/",
     github_link: "https://github.com/kimicasamina/passthesalt-password-manager",
   },
-  // {
-  //   id: 5,
-  //   name: "Bukopy Blog",
-  //   desc: "A simple blogging platform using Django. The platform allows both logged-in users and guests to view and browse blog posts. It also supports basic CRUD (Create, Read, Update, Delete) operations for managing blog posts.",
-  //   images: [bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6],
-  //   live_url: "https://bukopy-blogsite.onrender.com/",
-  //   github_link: "https://github.com/kimicasamina/bukopy-django-blogsite",
-  // },
+  {
+    id: 5,
+    name: "Bukopy Blog",
+    desc: "A simple blogging platform using Django. The platform allows both logged-in users and guests to view and browse blog posts. It also supports basic CRUD (Create, Read, Update, Delete) operations for managing blog posts.",
+    images: [bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6],
+    live_url: "https://bukopy-blogsite.onrender.com/",
+    github_link: "https://github.com/kimicasamina/bukopy-django-blogsite",
+  },
 
   // {
   //   id: 7,
