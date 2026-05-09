@@ -55,7 +55,6 @@ import {
 
 import { bukopy1, bukopy2, bukopy3, bukopy4, bukopy5, bukopy6 } from "../asset";
 
-// icons
 import { SiHtml5 } from "react-icons/si";
 import { SiCss3 } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
