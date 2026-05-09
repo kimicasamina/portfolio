@@ -3,9 +3,6 @@ FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Install 'serve' globally to run the static server
-RUN npm install -g serve
-
 # copy package files first (for caching)
 COPY package*.json ./
 
@@ -32,7 +29,3 @@ EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
 
-
-# Start 'serve' pointing to the build output folder (usually 'dist' for Vite)
-# -s flag handles Single Page Application (SPA) routing
-CMD ["serve", "-s", "dist", "-l", "3000"]
