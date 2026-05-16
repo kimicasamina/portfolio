@@ -12,13 +12,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Sync to  homelab
+      - name: Sync to  webserver
         run: |
-          mkdir -p ~/homelab/apps/portfolio
-          rsync -av --delete ./ ~/homelab/apps/portfolio
+          mkdir -p ~/webserver/apps/portfolio
+          rsync -av --delete ./ ~/webserver/apps/portfolio
 
       - name: Deploy containers
         run: |
-          cd ~/homelab
+          cd ~/webserver
           docker compose down
           docker compose up -d --build

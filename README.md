@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-link: kimcasamina.com
+url: kimcasamina.com
