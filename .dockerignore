@@ -1,6 +1,5 @@
 node_modules
-client/node_modules
 .git
 .gitignore
-client/build
-client/dist
+build
+dist
